@@ -52,27 +52,27 @@ public class PocetniEkranController implements Initializable {
 
     public void prikaziEkranZaPretraguZupanija () throws IOException {
         Parent pretragaZupanijaFrame = FXMLLoader.load(getClass().getClassLoader().getResource("pretragaZupanija.fxml"));
-        Scene pretragaZupanijaScene = new Scene(pretragaZupanijaFrame, 550, 380);
+        Scene pretragaZupanijaScene = new Scene(pretragaZupanijaFrame, 800, 500);
         Main.getMainStage().setScene(pretragaZupanijaScene);
     }
     public void prikaziEkranZaPretraguSimptoma () throws IOException {
         Parent pretragaSimptomaFrame = FXMLLoader.load(getClass().getClassLoader().getResource("pretragaSimptoma.fxml"));
-        Scene pretragaSimptomaScene = new Scene(pretragaSimptomaFrame, 550, 380);
+        Scene pretragaSimptomaScene = new Scene(pretragaSimptomaFrame, 800, 500);
         Main.getMainStage().setScene(pretragaSimptomaScene);
     }
     public void prikaziEkranZaPretraguBolesti () throws IOException {
         Parent pretragaBolestiFrame = FXMLLoader.load(getClass().getClassLoader().getResource("pretragaBolesti.fxml"));
-        Scene pretragaBolestiScene = new Scene(pretragaBolestiFrame, 550, 380);
+        Scene pretragaBolestiScene = new Scene(pretragaBolestiFrame, 800, 500);
         Main.getMainStage().setScene(pretragaBolestiScene);
     }
     public void prikaziEkranZaPretraguVirusa () throws IOException {
         Parent pretragaVirusaFrame = FXMLLoader.load(getClass().getClassLoader().getResource("pretragaVirusi.fxml"));
-        Scene pretragaVirusaScene = new Scene(pretragaVirusaFrame, 550, 380);
+        Scene pretragaVirusaScene = new Scene(pretragaVirusaFrame, 800, 500);
         Main.getMainStage().setScene(pretragaVirusaScene);
     }
     public void prikaziEkranZaPretraguOsoba () throws IOException {
         Parent pretragaOsobaFrame = FXMLLoader.load(getClass().getClassLoader().getResource("pretragaOsoba.fxml"));
-        Scene pretragaOsobaScene = new Scene(pretragaOsobaFrame, 550, 380);
+        Scene pretragaOsobaScene = new Scene(pretragaOsobaFrame, 800, 500);
         Main.getMainStage().setScene(pretragaOsobaScene);
     }
 

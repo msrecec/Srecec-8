@@ -9,8 +9,8 @@
 <MenuBar xmlns="http://javafx.com/javafx"
          xmlns:fx="http://javafx.com/fxml"
          fx:controller="main.java.sample.PocetniEkranController"
-         prefHeight="400.0" prefWidth="600.0"
-         GridPane.columnSpan="6">
+         prefHeight="500.0" prefWidth="800.0"
+         GridPane.columnSpan="10">
     <menus>
         <Menu mnemonicParsing="false" text="Županije">
             <items>

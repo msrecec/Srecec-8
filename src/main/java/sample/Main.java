@@ -40,7 +40,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("pocetniEkran.fxml"));
         primaryStage.setTitle("Početni ekran");
-        primaryStage.setScene(new Scene(root, 550, 380));
+        primaryStage.setScene(new Scene(root, 800, 500));
         mainStage = primaryStage;
         primaryStage.show();
     }
