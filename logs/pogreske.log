@@ -6232,3 +6232,79 @@ java.io.FileNotFoundException: dat\osobe.txt (The system cannot find the path sp
 2020-12-15 23:31:06,466 INFO [main] m.j.s.Main [Main.java:746] Unesen je id osobe: 3
 2020-12-15 23:31:06,466 INFO [main] m.j.s.Main [Main.java:750] Unesen je ime osobe: Marica
 2020-12-15 23:31:06,466 INFO [main] m.j.s.Main [Main.java:754] Unesen je ime osobe: Ždrerić
+2020-12-15 23:32:15,976 INFO [main] m.j.s.Main [Main.java:364] Unesen je id županija: 1
+2020-12-15 23:32:15,979 INFO [main] m.j.s.Main [Main.java:368] Unesen je naziv zupanije: GRAD ZAGREB
+2020-12-15 23:32:15,980 INFO [main] m.j.s.Main [Main.java:372] Unesen je broj stanovnika: 1000000
+2020-12-15 23:32:15,980 INFO [main] m.j.s.Main [Main.java:376] Unesen je broj zaraženih stanovnika: 20000
+2020-12-15 23:32:15,983 INFO [main] m.j.s.Main [Main.java:364] Unesen je id županija: 2
+2020-12-15 23:32:15,983 INFO [main] m.j.s.Main [Main.java:368] Unesen je naziv zupanije: MEĐIMURSKA
+2020-12-15 23:32:15,984 INFO [main] m.j.s.Main [Main.java:372] Unesen je broj stanovnika: 100000
+2020-12-15 23:32:15,984 INFO [main] m.j.s.Main [Main.java:376] Unesen je broj zaraženih stanovnika: 500
+2020-12-15 23:32:15,984 INFO [main] m.j.s.Main [Main.java:364] Unesen je id županija: 3
+2020-12-15 23:32:15,984 INFO [main] m.j.s.Main [Main.java:368] Unesen je naziv zupanije: VARAŽDINSKA
+2020-12-15 23:32:15,985 INFO [main] m.j.s.Main [Main.java:372] Unesen je broj stanovnika: 200000
+2020-12-15 23:32:15,985 INFO [main] m.j.s.Main [Main.java:376] Unesen je broj zaraženih stanovnika: 10000
+2020-12-15 23:32:15,986 INFO [main] m.j.s.Main [Main.java:426] Unesen je id simptoma: 1
+2020-12-15 23:32:15,986 INFO [main] m.j.s.Main [Main.java:430] Unesen je naziv simptoma: VISOKA TEMPERATURA
+2020-12-15 23:32:15,986 INFO [main] m.j.s.Main [Main.java:434] Unesena je vrijednost simptoma: ČESTO
+2020-12-15 23:32:15,987 INFO [main] m.j.s.Main [Main.java:426] Unesen je id simptoma: 2
+2020-12-15 23:32:15,987 INFO [main] m.j.s.Main [Main.java:430] Unesen je naziv simptoma: GLAVOBOLJA
+2020-12-15 23:32:15,988 INFO [main] m.j.s.Main [Main.java:434] Unesena je vrijednost simptoma: SREDNJE
+2020-12-15 23:32:15,988 INFO [main] m.j.s.Main [Main.java:426] Unesen je id simptoma: 3
+2020-12-15 23:32:15,988 INFO [main] m.j.s.Main [Main.java:430] Unesen je naziv simptoma: GRLOBOLJA
+2020-12-15 23:32:15,988 INFO [main] m.j.s.Main [Main.java:434] Unesena je vrijednost simptoma: RIJETKO
+2020-12-15 23:32:15,988 INFO [main] m.j.s.Main [Main.java:509] Unesen je id simptoma: 1
+2020-12-15 23:32:15,988 INFO [main] m.j.s.Main [Main.java:513] Unesen je naziv bolesti: HERPES
+2020-12-15 23:32:15,990 INFO [main] m.j.s.Main [Main.java:579] Unesen je id simptoma: 2
+2020-12-15 23:32:15,990 INFO [main] m.j.s.Main [Main.java:583] Unesen je naziv virusa: COVID-19
+2020-12-15 23:32:15,991 INFO [main] m.j.s.Main [Main.java:579] Unesen je id simptoma: 3
+2020-12-15 23:32:15,991 INFO [main] m.j.s.Main [Main.java:583] Unesen je naziv virusa: Gripa
+2020-12-15 23:32:15,991 INFO [main] m.j.s.Main [Main.java:579] Unesen je id simptoma: 4
+2020-12-15 23:32:15,991 INFO [main] m.j.s.Main [Main.java:583] Unesen je naziv virusa: KONJUKTIVITIS
+2020-12-15 23:32:15,992 INFO [main] m.j.s.Main [Main.java:746] Unesen je id osobe: 1
+2020-12-15 23:32:15,992 INFO [main] m.j.s.Main [Main.java:750] Unesen je ime osobe: Pero
+2020-12-15 23:32:15,992 INFO [main] m.j.s.Main [Main.java:754] Unesen je ime osobe: Perić
+2020-12-15 23:32:15,993 INFO [main] m.j.s.Main [Main.java:746] Unesen je id osobe: 2
+2020-12-15 23:32:15,993 INFO [main] m.j.s.Main [Main.java:750] Unesen je ime osobe: Janko
+2020-12-15 23:32:15,993 INFO [main] m.j.s.Main [Main.java:754] Unesen je ime osobe: Janić
+2020-12-15 23:32:15,994 INFO [main] m.j.s.Main [Main.java:746] Unesen je id osobe: 3
+2020-12-15 23:32:15,994 INFO [main] m.j.s.Main [Main.java:750] Unesen je ime osobe: Marica
+2020-12-15 23:32:15,994 INFO [main] m.j.s.Main [Main.java:754] Unesen je ime osobe: Ždrerić
+2020-12-15 23:33:19,506 INFO [main] m.j.s.Main [Main.java:364] Unesen je id županija: 1
+2020-12-15 23:33:19,510 INFO [main] m.j.s.Main [Main.java:368] Unesen je naziv zupanije: GRAD ZAGREB
+2020-12-15 23:33:19,510 INFO [main] m.j.s.Main [Main.java:372] Unesen je broj stanovnika: 1000000
+2020-12-15 23:33:19,510 INFO [main] m.j.s.Main [Main.java:376] Unesen je broj zaraženih stanovnika: 20000
+2020-12-15 23:33:19,514 INFO [main] m.j.s.Main [Main.java:364] Unesen je id županija: 2
+2020-12-15 23:33:19,515 INFO [main] m.j.s.Main [Main.java:368] Unesen je naziv zupanije: MEĐIMURSKA
+2020-12-15 23:33:19,515 INFO [main] m.j.s.Main [Main.java:372] Unesen je broj stanovnika: 100000
+2020-12-15 23:33:19,515 INFO [main] m.j.s.Main [Main.java:376] Unesen je broj zaraženih stanovnika: 500
+2020-12-15 23:33:19,515 INFO [main] m.j.s.Main [Main.java:364] Unesen je id županija: 3
+2020-12-15 23:33:19,516 INFO [main] m.j.s.Main [Main.java:368] Unesen je naziv zupanije: VARAŽDINSKA
+2020-12-15 23:33:19,516 INFO [main] m.j.s.Main [Main.java:372] Unesen je broj stanovnika: 200000
+2020-12-15 23:33:19,516 INFO [main] m.j.s.Main [Main.java:376] Unesen je broj zaraženih stanovnika: 10000
+2020-12-15 23:33:19,517 INFO [main] m.j.s.Main [Main.java:426] Unesen je id simptoma: 1
+2020-12-15 23:33:19,517 INFO [main] m.j.s.Main [Main.java:430] Unesen je naziv simptoma: VISOKA TEMPERATURA
+2020-12-15 23:33:19,518 INFO [main] m.j.s.Main [Main.java:434] Unesena je vrijednost simptoma: ČESTO
+2020-12-15 23:33:19,519 INFO [main] m.j.s.Main [Main.java:426] Unesen je id simptoma: 2
+2020-12-15 23:33:19,519 INFO [main] m.j.s.Main [Main.java:430] Unesen je naziv simptoma: GLAVOBOLJA
+2020-12-15 23:33:19,519 INFO [main] m.j.s.Main [Main.java:434] Unesena je vrijednost simptoma: SREDNJE
+2020-12-15 23:33:19,519 INFO [main] m.j.s.Main [Main.java:426] Unesen je id simptoma: 3
+2020-12-15 23:33:19,519 INFO [main] m.j.s.Main [Main.java:430] Unesen je naziv simptoma: GRLOBOLJA
+2020-12-15 23:33:19,519 INFO [main] m.j.s.Main [Main.java:434] Unesena je vrijednost simptoma: RIJETKO
+2020-12-15 23:33:19,521 INFO [main] m.j.s.Main [Main.java:509] Unesen je id simptoma: 1
+2020-12-15 23:33:19,521 INFO [main] m.j.s.Main [Main.java:513] Unesen je naziv bolesti: HERPES
+2020-12-15 23:33:19,523 INFO [main] m.j.s.Main [Main.java:579] Unesen je id simptoma: 2
+2020-12-15 23:33:19,523 INFO [main] m.j.s.Main [Main.java:583] Unesen je naziv virusa: COVID-19
+2020-12-15 23:33:19,525 INFO [main] m.j.s.Main [Main.java:579] Unesen je id simptoma: 3
+2020-12-15 23:33:19,525 INFO [main] m.j.s.Main [Main.java:583] Unesen je naziv virusa: Gripa
+2020-12-15 23:33:19,525 INFO [main] m.j.s.Main [Main.java:579] Unesen je id simptoma: 4
+2020-12-15 23:33:19,525 INFO [main] m.j.s.Main [Main.java:583] Unesen je naziv virusa: KONJUKTIVITIS
+2020-12-15 23:33:19,526 INFO [main] m.j.s.Main [Main.java:746] Unesen je id osobe: 1
+2020-12-15 23:33:19,526 INFO [main] m.j.s.Main [Main.java:750] Unesen je ime osobe: Pero
+2020-12-15 23:33:19,527 INFO [main] m.j.s.Main [Main.java:754] Unesen je ime osobe: Perić
+2020-12-15 23:33:19,528 INFO [main] m.j.s.Main [Main.java:746] Unesen je id osobe: 2
+2020-12-15 23:33:19,528 INFO [main] m.j.s.Main [Main.java:750] Unesen je ime osobe: Janko
+2020-12-15 23:33:19,528 INFO [main] m.j.s.Main [Main.java:754] Unesen je ime osobe: Janić
+2020-12-15 23:33:19,528 INFO [main] m.j.s.Main [Main.java:746] Unesen je id osobe: 3
+2020-12-15 23:33:19,528 INFO [main] m.j.s.Main [Main.java:750] Unesen je ime osobe: Marica
+2020-12-15 23:33:19,529 INFO [main] m.j.s.Main [Main.java:754] Unesen je ime osobe: Ždrerić

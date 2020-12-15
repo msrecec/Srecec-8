@@ -42,6 +42,7 @@
     <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
     <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
     <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints />
 </columnConstraints>
 <children>
     <fx:include fx:id="izbornik" source="izbornik.fxml" />
@@ -49,10 +50,10 @@
         <columns>
             <TableColumn fx:id="imeStupac" prefWidth="97.0" text="Ime" />
             <TableColumn fx:id="prezimeStupac" maxWidth="1.7976931348623157E308" prefWidth="113.0" text="Prezime" />
-            <TableColumn fx:id="starostStupac" prefWidth="84.0" text="Starost" />
-            <TableColumn fx:id="zupanijaStupac" prefWidth="92.0" text="Županija" />
-            <TableColumn fx:id="bolestStupac" prefWidth="72.0" text="Bolest" />
-            <TableColumn fx:id="kontaktiraneOsobeStupac" prefWidth="91.0" text="Kontaktirane Osobe" />
+            <TableColumn fx:id="starostStupac" prefWidth="52.0" text="Starost" />
+            <TableColumn fx:id="zupanijaStupac" prefWidth="146.0" text="Županija" />
+            <TableColumn fx:id="bolestStupac" prefWidth="97.0" text="Bolest" />
+            <TableColumn fx:id="kontaktiraneOsobeStupac" prefWidth="294.0" text="Kontaktirane Osobe" />
         </columns>
     </TableView>
     <Label text="Pretraživanje Osoba" GridPane.columnIndex="1" GridPane.columnSpan="4" GridPane.halignment="LEFT" GridPane.rowIndex="1">
