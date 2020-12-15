@@ -1,19 +1,26 @@
 package main.java.sample;
 
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 import main.java.sample.covidportal.model.Bolest;
 import main.java.sample.covidportal.model.Osoba;
+import main.java.sample.covidportal.model.Simptom;
 import main.java.sample.covidportal.model.Zupanija;
 
 import java.io.IOException;
+import java.net.URL;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class PretragaOsobaController {
+public class PretragaOsobaController implements Initializable {
+    private static ObservableList<Osoba> observableListaOsoba;
+
     @FXML
     private TableView tablicaOsoba ;
     @FXML
@@ -55,12 +62,12 @@ public class PretragaOsobaController {
             Set<Osoba> setFiltriranihOsoba = new HashSet(filtriraneOsobe);
             filtriraneOsobe = new ArrayList<>();
             filtriraneOsobe.addAll(setFiltriranihOsoba);
-            imeStupac.setCellValueFactory(new PropertyValueFactory<Osoba, String>("ime"));
-            prezimeStupac.setCellValueFactory(new PropertyValueFactory<Osoba, String>("prezime"));
-            starostStupac.setCellValueFactory(new PropertyValueFactory<Osoba, Integer>("starost"));
-            zupanijaStupac.setCellValueFactory(new PropertyValueFactory<Osoba, Zupanija>("zupanija"));
-            bolestStupac.setCellValueFactory(new PropertyValueFactory<Osoba, Bolest>("zarazenBolescu"));
-            kontaktiraneOsobeStupac.setCellValueFactory(new PropertyValueFactory<Osoba, List<Osoba>>("kontaktiraneOsobe"));
+//            imeStupac.setCellValueFactory(new PropertyValueFactory<Osoba, String>("ime"));
+//            prezimeStupac.setCellValueFactory(new PropertyValueFactory<Osoba, String>("prezime"));
+//            starostStupac.setCellValueFactory(new PropertyValueFactory<Osoba, Integer>("starost"));
+//            zupanijaStupac.setCellValueFactory(new PropertyValueFactory<Osoba, Zupanija>("zupanija"));
+//            bolestStupac.setCellValueFactory(new PropertyValueFactory<Osoba, Bolest>("zarazenBolescu"));
+//            kontaktiraneOsobeStupac.setCellValueFactory(new PropertyValueFactory<Osoba, List<Osoba>>("kontaktiraneOsobe"));
 
             tablicaOsoba.getItems().setAll(filtriraneOsobe);
         }
@@ -69,4 +76,18 @@ public class PretragaOsobaController {
 //        tablicaZupanija.setItems(FXCollections.observableArrayList(filtriraneZupanije));
     }
 
+    @Override
+    public void initialize(URL url, ResourceBundle resourceBundle) {
+        observableListaOsoba = FXCollections.observableArrayList();
+        observableListaOsoba.addAll(Main.osobe);
+
+        imeStupac.setCellValueFactory(new PropertyValueFactory<Osoba, String>("ime"));
+        prezimeStupac.setCellValueFactory(new PropertyValueFactory<Osoba, String>("prezime"));
+        starostStupac.setCellValueFactory(new PropertyValueFactory<Osoba, Integer>("starost"));
+        zupanijaStupac.setCellValueFactory(new PropertyValueFactory<Osoba, Zupanija>("zupanija"));
+        bolestStupac.setCellValueFactory(new PropertyValueFactory<Osoba, Bolest>("zarazenBolescu"));
+        kontaktiraneOsobeStupac.setCellValueFactory(new PropertyValueFactory<Osoba, List<Osoba>>("kontaktiraneOsobe"));
+
+        tablicaOsoba.setItems(observableListaOsoba);
+    }
 }

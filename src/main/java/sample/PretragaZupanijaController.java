@@ -1,7 +1,9 @@
 package main.java.sample;
 
 import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableColumnBase;
 import javafx.scene.control.TableView;
@@ -11,13 +13,14 @@ import main.java.sample.covidportal.model.Zupanija;
 import main.java.sample.covidportal.sort.CovidSorter;
 
 import java.io.IOException;
-import java.util.List;
-import java.util.Optional;
-import java.util.SortedSet;
-import java.util.TreeSet;
+import java.net.URL;
+import java.util.*;
 import java.util.stream.Collectors;
 
-public class PretragaZupanijaController {
+public class PretragaZupanijaController implements Initializable {
+
+    private static ObservableList<Zupanija> observableListaZupanija;
+
     @FXML
     private TableView tablicaZupanija ;
     @FXML
@@ -32,13 +35,18 @@ public class PretragaZupanijaController {
     public void pretraga() throws IOException {
         String uneseniNazivZupanije = unosNazivaZupanije.getText().toLowerCase();
 
-        Optional<List<Zupanija>> filtriraneZupanije = Optional.ofNullable(Main.zupanije.stream().filter(z -> z.getNaziv().toLowerCase().contains(uneseniNazivZupanije)).collect(Collectors.toList()));
+        Optional<List<Zupanija>> filtriraneZupanije = Optional.ofNullable(
+                Main.zupanije
+                .stream()
+                .filter(z -> z.getNaziv().toLowerCase().contains(uneseniNazivZupanije))
+                .collect(Collectors.toList())
+        );
 //        System.out.println(filtriraneZupanije.get(0).getNaziv());
 
         if(filtriraneZupanije.isPresent()) {
-            nazivStupac.setCellValueFactory(new PropertyValueFactory<Zupanija, String>("naziv"));
-            stanovniciStupac.setCellValueFactory(new PropertyValueFactory<Zupanija, Integer>("brojStanovnika"));
-            zarazeniStupac.setCellValueFactory(new PropertyValueFactory<Zupanija, Integer>("brojZarazenih"));
+//            nazivStupac.setCellValueFactory(new PropertyValueFactory<Zupanija, String>("naziv"));
+//            stanovniciStupac.setCellValueFactory(new PropertyValueFactory<Zupanija, Integer>("brojStanovnika"));
+//            zarazeniStupac.setCellValueFactory(new PropertyValueFactory<Zupanija, Integer>("brojZarazenih"));
 
             tablicaZupanija.getItems().setAll(filtriraneZupanije.get());
         }
@@ -47,4 +55,15 @@ public class PretragaZupanijaController {
 //        tablicaZupanija.setItems(FXCollections.observableArrayList(filtriraneZupanije));
     }
 
+    @Override
+    public void initialize(URL url, ResourceBundle resourceBundle) {
+        observableListaZupanija = FXCollections.observableArrayList();
+        observableListaZupanija.addAll(Main.zupanije);
+
+        nazivStupac.setCellValueFactory(new PropertyValueFactory<Zupanija, String>("naziv"));
+        stanovniciStupac.setCellValueFactory(new PropertyValueFactory<Zupanija, Integer>("brojStanovnika"));
+        zarazeniStupac.setCellValueFactory(new PropertyValueFactory<Zupanija, Integer>("brojZarazenih"));
+
+        tablicaZupanija.setItems(observableListaZupanija);
+    }
 }

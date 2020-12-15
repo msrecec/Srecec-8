@@ -1,19 +1,28 @@
 package main.java.sample;
 
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
+import main.java.sample.covidportal.model.Bolest;
 import main.java.sample.covidportal.model.Simptom;
+import main.java.sample.covidportal.model.Virus;
 import main.java.sample.covidportal.model.Zupanija;
 
 import java.io.IOException;
+import java.net.URL;
 import java.util.List;
 import java.util.Optional;
+import java.util.ResourceBundle;
 import java.util.stream.Collectors;
 
-public class PretragaSimptomaController {
+public class PretragaSimptomaController implements Initializable {
+    private static ObservableList<Simptom> observableListaSimptoma;
+
     @FXML
     private TableView tablicaSimptoma ;
     @FXML
@@ -30,12 +39,23 @@ public class PretragaSimptomaController {
 //        System.out.println(filtriraniSimptom.get(0).getNaziv());
 
         if(filtriraniSimptom.isPresent()) {
-            nazivStupac.setCellValueFactory(new PropertyValueFactory<Simptom, String>("naziv"));
-            vrijednostStupac.setCellValueFactory(new PropertyValueFactory<Simptom, String>("vrijednost"));
+//            nazivStupac.setCellValueFactory(new PropertyValueFactory<Simptom, String>("naziv"));
+//            vrijednostStupac.setCellValueFactory(new PropertyValueFactory<Simptom, String>("vrijednost"));
 
             tablicaSimptoma.getItems().setAll(filtriraniSimptom.get());
         }
 
 //        tablicaZupanija.setItems(FXCollections.observableArrayList(filtriraneZupanije));
+    }
+
+    @Override
+    public void initialize(URL url, ResourceBundle resourceBundle) {
+        observableListaSimptoma = FXCollections.observableArrayList();
+        observableListaSimptoma.addAll(Main.simptomi);
+
+        nazivStupac.setCellValueFactory(new PropertyValueFactory<Simptom, String>("naziv"));
+        vrijednostStupac.setCellValueFactory(new PropertyValueFactory<Simptom, String>("vrijednost"));
+
+        tablicaSimptoma.setItems(observableListaSimptoma);
     }
 }
