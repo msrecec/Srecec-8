@@ -36,6 +36,7 @@
     <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
 </columnConstraints>
 <children>
+    <fx:include fx:id="izbornik" source="izbornik.fxml" />
     <TableView fx:id="tablicaSimptoma" prefHeight="271.0" prefWidth="550.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="7" GridPane.rowSpan="2147483647">
         <columns>
             <TableColumn fx:id="nazivStupac" prefWidth="269.0" text="Naziv simptoma" />
