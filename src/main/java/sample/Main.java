@@ -18,6 +18,7 @@ import org.w3c.dom.ls.LSOutput;
 
 import java.io.*;
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.time.Duration;
 import java.time.Instant;
 import java.util.*;
@@ -137,7 +138,7 @@ public class Main extends Application {
 
                 BigDecimal brojZarazenih = new BigDecimal(e.getBrojZarazenih());
                 BigDecimal brojStanovnika = new BigDecimal(e.getBrojStanovnika());
-                BigDecimal postotakBrojaZarazenih = (brojZarazenih.divide(brojStanovnika))
+                BigDecimal postotakBrojaZarazenih = (brojZarazenih.divide(brojStanovnika,16,  RoundingMode.HALF_UP))
                         .multiply(new BigDecimal(100));
 
                 if(postotakBrojaZarazenih.compareTo(new BigDecimal(2)) > 0) {

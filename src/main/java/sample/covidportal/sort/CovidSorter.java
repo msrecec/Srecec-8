@@ -3,6 +3,7 @@ package main.java.sample.covidportal.sort;
 import main.java.sample.covidportal.model.Zupanija;
 
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.Comparator;
 
 /**
@@ -29,8 +30,8 @@ public class CovidSorter implements Comparator<Zupanija> {
         BigDecimal prviBrojStanovnika = new BigDecimal(z1.getBrojStanovnika().toString());
         BigDecimal drugiBrojStanovnika = new BigDecimal(z2.getBrojStanovnika().toString());
 
-        BigDecimal prviPostotakBrojaZarazenih = prviBrojZarazenih.divide(prviBrojStanovnika);
-        BigDecimal drugiPostotakBrojaZarazenih = drugiBrojZarazenih.divide(drugiBrojStanovnika);
+        BigDecimal prviPostotakBrojaZarazenih = prviBrojZarazenih.divide(prviBrojStanovnika, 16,  RoundingMode.HALF_UP);
+        BigDecimal drugiPostotakBrojaZarazenih = drugiBrojZarazenih.divide(drugiBrojStanovnika,  16,  RoundingMode.HALF_UP);
 
         if (prviPostotakBrojaZarazenih.compareTo(drugiPostotakBrojaZarazenih) > 0) {
             return 1;

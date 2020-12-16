@@ -1,5 +1,6 @@
 package main.java.sample;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -76,8 +77,15 @@ public class PocetniEkranController implements Initializable {
         Main.getMainStage().setScene(pretragaOsobaScene);
     }
 
+    public void prikaziEkranZaDodavanjeNoveZupanije() throws IOException {
+        Parent dodavanjeZupanijeFrame = FXMLLoader.load(getClass().getClassLoader().getResource("dodavanjeZupanije.fxml"));
+        Scene dodavanjeZupanijeScene = new Scene(dodavanjeZupanijeFrame, 800, 500);
+        Main.getMainStage().setScene(dodavanjeZupanijeScene);
+    }
+
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
     }
+
 }

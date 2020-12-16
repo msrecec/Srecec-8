@@ -66,4 +66,12 @@ public class PretragaZupanijaController implements Initializable {
 
         tablicaZupanija.setItems(observableListaZupanija);
     }
+
+    public static ObservableList<Zupanija> getObservableListaZupanija() {
+        return observableListaZupanija;
+    }
+
+    public static void setObservableListaZupanija(ObservableList<Zupanija> observableListaZupanija) {
+        PretragaZupanijaController.observableListaZupanija = observableListaZupanija;
+    }
 }
