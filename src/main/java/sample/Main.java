@@ -756,7 +756,7 @@ public class Main extends Application {
 
                 prezime = reader.readLine();
 
-                logger.info("Unesen je ime osobe: " + prezime);
+                logger.info("Unesen je prezime osobe: " + prezime);
 
                 starost = Integer.parseInt(reader.readLine());
 

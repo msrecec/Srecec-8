@@ -31,6 +31,8 @@ public class PretragaZupanijaController implements Initializable {
     private TableColumn<Zupanija, Integer> zarazeniStupac;
     @FXML
     private TextField unosNazivaZupanije;
+    @FXML
+    private TableColumn<Long, String> idStupac;
 
     public void pretraga() throws IOException {
         String uneseniNazivZupanije = unosNazivaZupanije.getText().toLowerCase();
@@ -63,6 +65,7 @@ public class PretragaZupanijaController implements Initializable {
         nazivStupac.setCellValueFactory(new PropertyValueFactory<Zupanija, String>("naziv"));
         stanovniciStupac.setCellValueFactory(new PropertyValueFactory<Zupanija, Integer>("brojStanovnika"));
         zarazeniStupac.setCellValueFactory(new PropertyValueFactory<Zupanija, Integer>("brojZarazenih"));
+        idStupac.setCellValueFactory(new PropertyValueFactory<Long, String>("id"));
 
         tablicaZupanija.setItems(observableListaZupanija);
     }

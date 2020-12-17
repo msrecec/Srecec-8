@@ -34,6 +34,7 @@
         <Menu mnemonicParsing="false" text="Osobe">
             <items>
                 <MenuItem mnemonicParsing="false" onAction="#prikaziEkranZaPretraguOsoba" text="Pretraga" />
+                <MenuItem mnemonicParsing="false" onAction="#prikaziEkranZaDodavanjeNoveOsobe" text="Novi zapis" />
             </items>
         </Menu>
     </menus>

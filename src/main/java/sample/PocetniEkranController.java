@@ -101,6 +101,12 @@ public class PocetniEkranController implements Initializable {
         Main.getMainStage().setScene(dodavanjeVirusaScene);
     }
 
+    public void prikaziEkranZaDodavanjeNoveOsobe() throws IOException {
+        Parent dodavanjeOsobeFrame = FXMLLoader.load(getClass().getClassLoader().getResource("dodavanjeOsobe.fxml"));
+        Scene dodavanjeOsobeScene = new Scene(dodavanjeOsobeFrame, 800, 500);
+        Main.getMainStage().setScene(dodavanjeOsobeScene);
+    }
+
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 

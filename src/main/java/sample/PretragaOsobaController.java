@@ -90,4 +90,12 @@ public class PretragaOsobaController implements Initializable {
 
         tablicaOsoba.setItems(observableListaOsoba);
     }
+
+    public static ObservableList<Osoba> getObservableListaOsoba() {
+        return observableListaOsoba;
+    }
+
+    public static void setObservableListaOsoba(ObservableList<Osoba> observableListaOsoba) {
+        PretragaOsobaController.observableListaOsoba = observableListaOsoba;
+    }
 }
