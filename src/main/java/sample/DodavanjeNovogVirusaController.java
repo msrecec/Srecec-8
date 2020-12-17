@@ -32,60 +32,60 @@ public class DodavanjeNovogVirusaController {
     @FXML
     private TextField simptomi;
 
-    public void dodajNoviVirus() throws BolestIstihSimptoma {
+    public void dodajNoviVirus() {
         File unosBolesti = new File("dat/virusi.txt");
-        String nazivVirusaText = nazivVirusa.getText();
-        String simptomiText = simptomi.getText();
-
-        Set<Simptom> odabraniSimptomi = new HashSet<>();
-
-        Arrays.stream(simptomiText.split(",")).forEach(el -> {
-
-            // Iteracija simptoma po indeksu
-
-            int element = Integer.parseInt(el);
-
-            Simptom simptom;
-
-            Iterator<Simptom> iteratorSimptoma = Main.simptomi.iterator();
-            Simptom pronadeniOdabraniSimptom = null;
-
-            for (int k = 0; k < Main.simptomi.size() && iteratorSimptoma.hasNext(); ++k) {
-                simptom = iteratorSimptoma.next();
-                if (simptom.getId() == (element)) {
-                    pronadeniOdabraniSimptom = simptom;
-                    odabraniSimptomi.add(pronadeniOdabraniSimptom);
-                }
-            }
-
-
-        } );
-
-        // Provjera duplikata unosa Simptoma
-
-//        if (Main.bolesti.size() > 0) {
-//
-//            Main.provjeraBolestiIstihSimptoma(Main.bolesti, odabraniSimptomi);
-//
-//        }
-
-        Virus noviVirus = new Virus(Long.parseLong("2"+((Integer.valueOf((int) Main.bolesti.stream().filter(b -> (b instanceof Virus)).count() + 1)).toString())), nazivVirusaText, odabraniSimptomi);
-
-        // Provjera da li je unos bolest ili virus i unos u polje bolesti
-
-        if (Main.bolesti == null) {
-            Main.bolesti = new HashSet<>();
-        }
-        Main.bolesti.add(noviVirus);
-
-        PretragaVirusiController.setObservableListaVirusa(FXCollections.observableArrayList());
-
-        PretragaVirusiController.getObservableListaVirusa().addAll(Main.bolesti.stream().filter(z -> ((z instanceof Virus))).collect(Collectors.toList()));
-
         try (
                 FileWriter filewriter = new FileWriter(unosBolesti, true);
                 BufferedWriter writer = new BufferedWriter(filewriter);
         ) {
+            String nazivVirusaText = nazivVirusa.getText();
+            String simptomiText = simptomi.getText();
+
+            Set<Simptom> odabraniSimptomi = new HashSet<>();
+
+            Arrays.stream(simptomiText.split(",")).forEach(el -> {
+
+                // Iteracija simptoma po indeksu
+
+                int element = Integer.parseInt(el);
+
+                Simptom simptom;
+
+                Iterator<Simptom> iteratorSimptoma = Main.simptomi.iterator();
+                Simptom pronadeniOdabraniSimptom = null;
+
+                for (int k = 0; k < Main.simptomi.size() && iteratorSimptoma.hasNext(); ++k) {
+                    simptom = iteratorSimptoma.next();
+                    if (simptom.getId() == (element)) {
+                        pronadeniOdabraniSimptom = simptom;
+                        odabraniSimptomi.add(pronadeniOdabraniSimptom);
+                    }
+                }
+
+
+            } );
+
+            // Provjera duplikata unosa Simptoma
+
+            if (Main.bolesti.size() > 0) {
+
+                Main.provjeraBolestiIstihSimptoma(Main.bolesti, odabraniSimptomi);
+
+            }
+
+            Virus noviVirus = new Virus(Long.parseLong("2"+((Integer.valueOf((int) Main.bolesti.stream().filter(b -> (b instanceof Virus)).count() + 1)).toString())), nazivVirusaText, odabraniSimptomi);
+
+            // Provjera da li je unos bolest ili virus i unos u polje bolesti
+
+            if (Main.bolesti == null) {
+                Main.bolesti = new HashSet<>();
+            }
+            Main.bolesti.add(noviVirus);
+
+            PretragaVirusiController.setObservableListaVirusa(FXCollections.observableArrayList());
+
+            PretragaVirusiController.getObservableListaVirusa().addAll(Main.bolesti.stream().filter(z -> ((z instanceof Virus))).collect(Collectors.toList()));
+
             writer.write(noviVirus.getId().toString()+"\n");
             writer.write(noviVirus.getNaziv()+"\n");
             writer.write(String.join(",", noviVirus
@@ -99,10 +99,15 @@ public class DodavanjeNovogVirusaController {
             nazivVirusaText = null;
             simptomiText = null;
 
-        } catch (IOException ex) {
-
-            logger.error("Ne mogu pronaci datoteku.", ex);
-
+        } catch (IOException e) {
+            PocetniEkranController.neuspjesanUnos(e.getMessage());
+            logger.error("Ne mogu pronaci datoteku.", e);
+        } catch (BolestIstihSimptoma ex) {
+            logger.error("Bolest istih simptoma greska: ", ex);
+            PocetniEkranController.neuspjesanUnos(ex.getMessage());
+        } catch (NumberFormatException exc) {
+            logger.error("Ne mogu pretvoriti vrijednost: ", exc);
+            PocetniEkranController.neuspjesanUnos(exc.getMessage());
         }
     }
 }

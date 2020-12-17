@@ -107,6 +107,25 @@ public class PocetniEkranController implements Initializable {
         Main.getMainStage().setScene(dodavanjeOsobeScene);
     }
 
+    public static void uspjesanUnos() {
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("Uspjesan unos");
+        alert.setHeaderText("Uspješan unos");
+        alert.setContentText("Uspješan unos");
+        alert.showAndWait();
+    }
+
+
+    public static void neuspjesanUnos(String err) {
+        Alert alert = new Alert(Alert.AlertType.ERROR);
+        alert.setTitle("Neuspjesan unos");
+        alert.setHeaderText("Neuspješan unos");
+        alert.setContentText(err);
+        alert.showAndWait();
+    }
+
+
+
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 

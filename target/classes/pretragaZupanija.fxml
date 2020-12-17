@@ -41,14 +41,17 @@
     <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
     <ColumnConstraints minWidth="20.0" prefWidth="150.0" />
     <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints />
+      <ColumnConstraints />
 </columnConstraints>
 <children>
     <fx:include fx:id="izbornik" source="izbornik.fxml" />
       <TableView fx:id="tablicaZupanija" prefHeight="271.0" prefWidth="800" GridPane.columnSpan="2147483647" GridPane.rowIndex="7" GridPane.rowSpan="2147483647">
         <columns>
-          <TableColumn fx:id="nazivStupac" prefWidth="191.0" text="Naziv županije" />
-          <TableColumn fx:id="stanovniciStupac" maxWidth="1.7976931348623157E308" prefWidth="162.0" text="Broj stanovnika" />
-            <TableColumn fx:id="zarazeniStupac" prefWidth="233.0" text="Broj zaraženih" />
+          <TableColumn fx:id="nazivStupac" prefWidth="257.0" text="Naziv županije" />
+          <TableColumn fx:id="stanovniciStupac" maxWidth="1.7976931348623157E308" prefWidth="180.0" text="Broj stanovnika" />
+            <TableColumn fx:id="zarazeniStupac" prefWidth="207.0" text="Broj zaraženih" />
+            <TableColumn fx:id="idStupac" prefWidth="155.0" text="Id" />
         </columns>
       </TableView>
     <Label text="Pretraživanje županija" GridPane.columnIndex="1" GridPane.columnSpan="4" GridPane.halignment="LEFT" GridPane.rowIndex="1">
