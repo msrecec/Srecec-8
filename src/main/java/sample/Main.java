@@ -526,12 +526,13 @@ public class Main extends Application {
 
                     for (int k = 0; k < simptomi.size() && iteratorSimptoma.hasNext(); ++k) {
                         simptom = iteratorSimptoma.next();
-                        if (k == (element - 1)) {
+                        if (simptom.getId() == (element)) {
                             pronadeniOdabraniSimptom = simptom;
+                            odabraniSimptomi.add(pronadeniOdabraniSimptom);
                         }
                     }
 
-                    odabraniSimptomi.add(pronadeniOdabraniSimptom);
+//                    odabraniSimptomi.add(pronadeniOdabraniSimptom);
 
                 } );
 
@@ -557,7 +558,8 @@ public class Main extends Application {
 
             logger.error("Greska prilikom citanja broja!", exe);
 
-        }  catch (BolestIstihSimptoma exc) {
+        }
+        catch (BolestIstihSimptoma exc) {
 
             logger.error(exc.getMessage(), exc);
 
@@ -596,12 +598,13 @@ public class Main extends Application {
 
                     for (int k = 0; k < simptomi.size() && iteratorSimptoma.hasNext(); ++k) {
                         simptom = iteratorSimptoma.next();
-                        if (k == (element - 1)) {
+                        if (simptom.getId() == (element)) {
                             pronadeniOdabraniSimptom = simptom;
+                            odabraniSimptomi.add(pronadeniOdabraniSimptom);
                         }
                     }
 
-                    odabraniSimptomi.add(pronadeniOdabraniSimptom);
+//                    odabraniSimptomi.add(pronadeniOdabraniSimptom);
 
                 } );
 
@@ -627,7 +630,8 @@ public class Main extends Application {
 
             logger.error("Greska prilikom citanja broja!", exe);
 
-        }  catch (BolestIstihSimptoma exc) {
+        }
+        catch (BolestIstihSimptoma exc) {
 
             logger.error(exc.getMessage(), exc);
 
@@ -648,7 +652,7 @@ public class Main extends Application {
      *                             prisutni u prethodno unesenim bolestima <code>Bolest[] bolesti</code>
      */
 
-    private static void provjeraBolestiIstihSimptoma(Set<Bolest> bolesti, Set<Simptom> odabraniSimptomi) throws BolestIstihSimptoma {
+    public static void provjeraBolestiIstihSimptoma(Set<Bolest> bolesti, Set<Simptom> odabraniSimptomi) throws BolestIstihSimptoma {
 
         for (Bolest bolest : bolesti) {
 

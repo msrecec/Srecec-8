@@ -31,6 +31,8 @@ public class PretragaSimptomaController implements Initializable {
     private TableColumn<Simptom, String> vrijednostStupac;
     @FXML
     private TextField unosNazivaSimptoma;
+    @FXML
+    private TableColumn<Long, String> idStupac;
 
     public void pretraga() throws IOException {
         String uneseniNazivSimptoma = unosNazivaSimptoma.getText().toLowerCase();
@@ -55,7 +57,16 @@ public class PretragaSimptomaController implements Initializable {
 
         nazivStupac.setCellValueFactory(new PropertyValueFactory<Simptom, String>("naziv"));
         vrijednostStupac.setCellValueFactory(new PropertyValueFactory<Simptom, String>("vrijednost"));
+        idStupac.setCellValueFactory(new PropertyValueFactory<Long, String>("id"));
 
         tablicaSimptoma.setItems(observableListaSimptoma);
+    }
+
+    public static ObservableList<Simptom> getObservableListaSimptoma() {
+        return observableListaSimptoma;
+    }
+
+    public static void setObservableListaSimptoma(ObservableList<Simptom> observableListaSimptoma) {
+        PretragaSimptomaController.observableListaSimptoma = observableListaSimptoma;
     }
 }

@@ -16,16 +16,19 @@
         <Menu mnemonicParsing="false" text="Simptomi">
             <items>
                 <MenuItem mnemonicParsing="false" onAction="#prikaziEkranZaPretraguSimptoma" text="Pretraga" />
+                <MenuItem mnemonicParsing="false" onAction="#prikaziEkranZaDodavanjeNovogSimptoma" text="Novi zapis" />
             </items>
         </Menu>
         <Menu mnemonicParsing="false" text="Bolesti">
             <items>
                 <MenuItem mnemonicParsing="false" onAction="#prikaziEkranZaPretraguBolesti" text="Pretraga" />
+                <MenuItem mnemonicParsing="false" onAction="#prikaziEkranZaDodavanjeNoveBolesti" text="Novi zapis" />
             </items>
         </Menu>
         <Menu mnemonicParsing="false" text="Virusi">
             <items>
                 <MenuItem mnemonicParsing="false" onAction="#prikaziEkranZaPretraguVirusa" text="Pretraga" />
+                <MenuItem mnemonicParsing="false" onAction="#prikaziEkranZaDodavanjeNovogVirusa" text="Novi zapis" />
             </items>
         </Menu>
         <Menu mnemonicParsing="false" text="Osobe">

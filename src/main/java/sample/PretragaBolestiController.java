@@ -30,6 +30,8 @@ public class PretragaBolestiController implements Initializable {
     @FXML
     private TableColumn<Set<Simptom>, String> simptomiStupac;
     @FXML
+    private TableColumn<Long, String> idStupac;
+    @FXML
     private TextField unosNazivaBolesti;
 
     public void pretraga() throws IOException {
@@ -61,7 +63,16 @@ public class PretragaBolestiController implements Initializable {
 
         nazivStupac.setCellValueFactory(new PropertyValueFactory<Bolest, String>("naziv"));
         simptomiStupac.setCellValueFactory(new PropertyValueFactory<Set<Simptom>, String>("simptomi"));
+        idStupac.setCellValueFactory(new PropertyValueFactory<Long, String>("id"));
 
         tablicaBolesti.setItems(observableListaBolesti);
+    }
+
+    public static ObservableList<Bolest> getObservableListaBolesti() {
+        return observableListaBolesti;
+    }
+
+    public static void setObservableListaBolesti(ObservableList<Bolest> observableListaBolesti) {
+        PretragaBolestiController.observableListaBolesti = observableListaBolesti;
     }
 }

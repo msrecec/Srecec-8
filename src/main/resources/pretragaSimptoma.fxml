@@ -48,8 +48,9 @@
     <fx:include fx:id="izbornik" source="izbornik.fxml" />
     <TableView fx:id="tablicaSimptoma" prefHeight="271.0" prefWidth="550.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="7" GridPane.rowSpan="2147483647">
         <columns>
-            <TableColumn fx:id="nazivStupac" prefWidth="269.0" text="Naziv simptoma" />
-            <TableColumn fx:id="vrijednostStupac" maxWidth="1.7976931348623157E308" prefWidth="280.0" text="Vrijednost simptoma" />
+            <TableColumn fx:id="nazivStupac" prefWidth="324.0" text="Naziv simptoma" />
+            <TableColumn fx:id="vrijednostStupac" maxWidth="1.7976931348623157E308" prefWidth="297.0" text="Vrijednost simptoma" />
+            <TableColumn fx:id="idStupac" prefWidth="178.0" text="Id" />
         </columns>
     </TableView>
     <Label text="Pretraživanje simptoma" GridPane.columnIndex="1" GridPane.columnSpan="4" GridPane.halignment="LEFT" GridPane.rowIndex="1">

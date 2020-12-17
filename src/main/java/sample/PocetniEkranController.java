@@ -83,6 +83,24 @@ public class PocetniEkranController implements Initializable {
         Main.getMainStage().setScene(dodavanjeZupanijeScene);
     }
 
+    public void prikaziEkranZaDodavanjeNovogSimptoma() throws IOException {
+        Parent dodavanjeSimptomaFrame = FXMLLoader.load(getClass().getClassLoader().getResource("dodavanjeSimptoma.fxml"));
+        Scene dodavanjeSimptomaScene = new Scene(dodavanjeSimptomaFrame, 800, 500);
+        Main.getMainStage().setScene(dodavanjeSimptomaScene);
+    }
+
+    public void prikaziEkranZaDodavanjeNoveBolesti() throws IOException {
+        Parent dodavanjeBolestiFrame = FXMLLoader.load(getClass().getClassLoader().getResource("dodavanjeBolesti.fxml"));
+        Scene dodavanjeBolestiScene = new Scene(dodavanjeBolestiFrame, 800, 500);
+        Main.getMainStage().setScene(dodavanjeBolestiScene);
+    }
+
+    public void prikaziEkranZaDodavanjeNovogVirusa() throws IOException {
+        Parent dodavanjeVirusaFrame = FXMLLoader.load(getClass().getClassLoader().getResource("dodavanjeVirusa.fxml"));
+        Scene dodavanjeVirusaScene = new Scene(dodavanjeVirusaFrame, 800, 500);
+        Main.getMainStage().setScene(dodavanjeVirusaScene);
+    }
+
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
