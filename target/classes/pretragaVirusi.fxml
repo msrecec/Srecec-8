@@ -41,13 +41,15 @@
     <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
     <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
     <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints />
 </columnConstraints>
 <children>
     <fx:include fx:id="izbornik" source="izbornik.fxml" />
     <TableView fx:id="tablicaVirusa" prefHeight="271.0" prefWidth="550.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="7" GridPane.rowSpan="2147483647">
         <columns>
             <TableColumn fx:id="nazivStupac" prefWidth="269.0" text="Naziv virusa" />
-            <TableColumn fx:id="simptomiStupac" maxWidth="1.7976931348623157E308" prefWidth="280.0" text="Simptomi" />
+            <TableColumn fx:id="simptomiStupac" maxWidth="1.7976931348623157E308" prefWidth="401.0" text="Simptomi" />
+            <TableColumn fx:id="idStupac" prefWidth="129.0" text="Id" />
         </columns>
     </TableView>
     <Label text="Pretraživanje virusa" GridPane.columnIndex="1" GridPane.columnSpan="4" GridPane.halignment="LEFT" GridPane.rowIndex="1">
