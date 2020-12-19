@@ -546,7 +546,7 @@ public class Main extends Application {
 
                 // Provjera da li je unos bolest ili virus i unos u polje bolesti
 
-                bolesti.add(new Bolest(idBolesti, nazivBolesti, odabraniSimptomi));
+                bolesti.add(new Bolest(idBolesti, nazivBolesti, odabraniSimptomi, "Default opis"));
 
             }
 
@@ -618,7 +618,7 @@ public class Main extends Application {
 
                 // Provjera da li je unos bolest ili virus i unos u polje bolesti
 
-                bolesti.add(new Virus(idVirusa, nazivVirusa, odabraniSimptomi));
+                bolesti.add(new Virus(idVirusa, nazivVirusa, odabraniSimptomi, "Default opis virusa"));
 
             }
 

@@ -31,6 +31,8 @@ public class PretragaVirusiController implements Initializable {
     @FXML
     private TableColumn<Long, String> idStupac;
     @FXML
+    private TableColumn<String, String> opisStupac;
+    @FXML
     private TextField unosNazivaVirusa;
 
     public void pretraga() throws IOException {
@@ -63,6 +65,7 @@ public class PretragaVirusiController implements Initializable {
         nazivStupac.setCellValueFactory(new PropertyValueFactory<Bolest, String>("naziv"));
         simptomiStupac.setCellValueFactory(new PropertyValueFactory<Set<Simptom>, String>("simptomi"));
         idStupac.setCellValueFactory(new PropertyValueFactory<Long, String>("id"));
+        opisStupac.setCellValueFactory(new PropertyValueFactory<String, String>("opis"));
 
         tablicaVirusa.setItems(observableListaVirusa);
 

@@ -10297,3 +10297,1412 @@ java.lang.NumberFormatException: For input string: "ASDAS"
 2020-12-17 04:17:09,492 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Marica
 2020-12-17 04:17:09,492 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Ždrerić
 2020-12-17 04:18:46,321 INFO [JavaFX Application Thread] m.j.s.DodavanjeNoveBolestiController [DodavanjeNoveBolestiController.java:106] Unesena je bolest: Dalekovidnost
+2020-12-17 04:29:11,846 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 1
+2020-12-17 04:29:11,850 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: GRAD ZAGREB
+2020-12-17 04:29:11,850 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 1000000
+2020-12-17 04:29:11,850 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 20000
+2020-12-17 04:29:11,852 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 2
+2020-12-17 04:29:11,852 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: MEĐIMURSKA
+2020-12-17 04:29:11,852 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 100000
+2020-12-17 04:29:11,852 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 500
+2020-12-17 04:29:11,853 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 3
+2020-12-17 04:29:11,853 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: VARAŽDINSKA
+2020-12-17 04:29:11,853 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 200000
+2020-12-17 04:29:11,853 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 10000
+2020-12-17 04:29:11,853 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 1
+2020-12-17 04:29:11,854 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: VISOKA TEMPERATURA
+2020-12-17 04:29:11,854 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: ČESTO
+2020-12-17 04:29:11,855 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 2
+2020-12-17 04:29:11,855 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GLAVOBOLJA
+2020-12-17 04:29:11,855 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: SREDNJE
+2020-12-17 04:29:11,855 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 3
+2020-12-17 04:29:11,855 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GRLOBOLJA
+2020-12-17 04:29:11,855 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: RIJETKO
+2020-12-17 04:29:11,856 INFO [main] m.j.s.Main [Main.java:510] Unesen je id simptoma: 11
+2020-12-17 04:29:11,856 INFO [main] m.j.s.Main [Main.java:514] Unesen je naziv bolesti: HERPES
+2020-12-17 04:29:11,858 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 21
+2020-12-17 04:29:11,858 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: COVID-19
+2020-12-17 04:29:11,859 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 22
+2020-12-17 04:29:11,859 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: Gripa
+2020-12-17 04:29:11,859 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 23
+2020-12-17 04:29:11,859 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: KONJUKTIVITIS
+2020-12-17 04:29:11,860 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 1
+2020-12-17 04:29:11,860 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Pero
+2020-12-17 04:29:11,860 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Perić
+2020-12-17 04:29:11,861 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 2
+2020-12-17 04:29:11,862 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Janko
+2020-12-17 04:29:11,862 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Janić
+2020-12-17 04:29:11,862 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 3
+2020-12-17 04:29:11,862 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Marica
+2020-12-17 04:29:11,862 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Ždrerić
+2020-12-17 04:29:40,163 ERROR [JavaFX Application Thread] m.j.s.DodavanjeNoveZupanijeController [DodavanjeNoveOsobeController.java:124] Ne mogu pretvoriti vrijednost: 
+java.lang.NumberFormatException: For input string: "asdasd"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68)
+	at java.base/java.lang.Integer.parseInt(Integer.java:652)
+	at java.base/java.lang.Integer.parseInt(Integer.java:770)
+	at main.java.sample.DodavanjeNoveOsobeController.dodajNovuOsobu(DodavanjeNoveOsobeController.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at javafx.base/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273)
+	at javafx.fxml/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83)
+	at javafx.fxml/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1859)
+	at javafx.fxml/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1729)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Node.fireEvent(Node.java:8886)
+	at javafx.controls/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208)
+	at javafx.controls/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Scene$MouseHandler.process(Scene.java:3856)
+	at javafx.graphics/javafx.scene.Scene.processMouseEvent(Scene.java:1851)
+	at javafx.graphics/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2584)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447)
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446)
+	at javafx.graphics/com.sun.glass.ui.View.handleMouseEvent(View.java:556)
+	at javafx.graphics/com.sun.glass.ui.View.notifyMouse(View.java:942)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-12-17 04:29:54,968 ERROR [JavaFX Application Thread] m.j.s.DodavanjeNoveZupanijeController [DodavanjeNoveOsobeController.java:124] Ne mogu pretvoriti vrijednost: 
+java.lang.NumberFormatException: For input string: "aa"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68)
+	at java.base/java.lang.Long.parseLong(Long.java:707)
+	at java.base/java.lang.Long.parseLong(Long.java:832)
+	at main.java.sample.DodavanjeNoveOsobeController.lambda$dodajNovuOsobu$0(DodavanjeNoveOsobeController.java:78)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at main.java.sample.DodavanjeNoveOsobeController.dodajNovuOsobu(DodavanjeNoveOsobeController.java:75)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at javafx.base/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273)
+	at javafx.fxml/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83)
+	at javafx.fxml/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1859)
+	at javafx.fxml/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1729)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Node.fireEvent(Node.java:8886)
+	at javafx.controls/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208)
+	at javafx.controls/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Scene$MouseHandler.process(Scene.java:3856)
+	at javafx.graphics/javafx.scene.Scene.processMouseEvent(Scene.java:1851)
+	at javafx.graphics/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2584)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447)
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446)
+	at javafx.graphics/com.sun.glass.ui.View.handleMouseEvent(View.java:556)
+	at javafx.graphics/com.sun.glass.ui.View.notifyMouse(View.java:942)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-12-17 04:30:04,835 INFO [JavaFX Application Thread] m.j.s.DodavanjeNoveZupanijeController [DodavanjeNoveOsobeController.java:116] Unesena je osoba: Mislav
+2020-12-17 04:30:24,958 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 1
+2020-12-17 04:30:24,962 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: GRAD ZAGREB
+2020-12-17 04:30:24,962 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 1000000
+2020-12-17 04:30:24,963 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 20000
+2020-12-17 04:30:24,964 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 2
+2020-12-17 04:30:24,965 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: MEĐIMURSKA
+2020-12-17 04:30:24,965 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 100000
+2020-12-17 04:30:24,965 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 500
+2020-12-17 04:30:24,965 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 3
+2020-12-17 04:30:24,966 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: VARAŽDINSKA
+2020-12-17 04:30:24,966 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 200000
+2020-12-17 04:30:24,966 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 10000
+2020-12-17 04:30:24,967 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 1
+2020-12-17 04:30:24,967 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: VISOKA TEMPERATURA
+2020-12-17 04:30:24,967 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: ČESTO
+2020-12-17 04:30:24,968 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 2
+2020-12-17 04:30:24,968 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GLAVOBOLJA
+2020-12-17 04:30:24,968 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: SREDNJE
+2020-12-17 04:30:24,968 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 3
+2020-12-17 04:30:24,969 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GRLOBOLJA
+2020-12-17 04:30:24,969 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: RIJETKO
+2020-12-17 04:30:24,969 INFO [main] m.j.s.Main [Main.java:510] Unesen je id simptoma: 11
+2020-12-17 04:30:24,969 INFO [main] m.j.s.Main [Main.java:514] Unesen je naziv bolesti: HERPES
+2020-12-17 04:30:24,971 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 21
+2020-12-17 04:30:24,971 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: COVID-19
+2020-12-17 04:30:24,972 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 22
+2020-12-17 04:30:24,972 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: Gripa
+2020-12-17 04:30:24,973 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 23
+2020-12-17 04:30:24,973 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: KONJUKTIVITIS
+2020-12-17 04:30:24,980 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 1
+2020-12-17 04:30:24,980 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Pero
+2020-12-17 04:30:24,980 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Perić
+2020-12-17 04:30:24,981 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 2
+2020-12-17 04:30:24,981 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Janko
+2020-12-17 04:30:24,981 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Janić
+2020-12-17 04:30:24,982 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 3
+2020-12-17 04:30:24,982 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Marica
+2020-12-17 04:30:24,982 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Ždrerić
+2020-12-17 04:30:24,982 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 4
+2020-12-17 04:30:24,982 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Mislav
+2020-12-17 04:30:24,982 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Srečec
+2020-12-17 04:30:37,218 INFO [JavaFX Application Thread] m.j.s.DodavanjeNoveBolestiController [DodavanjeNoveBolestiController.java:106] Unesena je bolest: awd
+2020-12-17 04:30:55,747 ERROR [JavaFX Application Thread] m.j.s.DodavanjeNoveBolestiController [DodavanjeNoveBolestiController.java:117] Bolest istih simptoma greska: 
+main.java.sample.covidportal.iznimke.BolestIstihSimptoma: Uneseni simptomi su duplikati iz prethodno unesenih bolesti!
+	at main.java.sample.Main.provjeraBolestiIstihSimptoma(Main.java:667)
+	at main.java.sample.DodavanjeNoveBolestiController.dodajNovuBolest(DodavanjeNoveBolestiController.java:72)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at javafx.base/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273)
+	at javafx.fxml/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83)
+	at javafx.fxml/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1859)
+	at javafx.fxml/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1729)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Node.fireEvent(Node.java:8886)
+	at javafx.controls/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208)
+	at javafx.controls/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Scene$MouseHandler.process(Scene.java:3856)
+	at javafx.graphics/javafx.scene.Scene.processMouseEvent(Scene.java:1851)
+	at javafx.graphics/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2584)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447)
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446)
+	at javafx.graphics/com.sun.glass.ui.View.handleMouseEvent(View.java:556)
+	at javafx.graphics/com.sun.glass.ui.View.notifyMouse(View.java:942)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-12-17 04:30:57,959 ERROR [JavaFX Application Thread] m.j.s.DodavanjeNoveBolestiController [DodavanjeNoveBolestiController.java:117] Bolest istih simptoma greska: 
+main.java.sample.covidportal.iznimke.BolestIstihSimptoma: Uneseni simptomi su duplikati iz prethodno unesenih bolesti!
+	at main.java.sample.Main.provjeraBolestiIstihSimptoma(Main.java:667)
+	at main.java.sample.DodavanjeNoveBolestiController.dodajNovuBolest(DodavanjeNoveBolestiController.java:72)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at javafx.base/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273)
+	at javafx.fxml/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83)
+	at javafx.fxml/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1859)
+	at javafx.fxml/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1729)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Node.fireEvent(Node.java:8886)
+	at javafx.controls/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208)
+	at javafx.controls/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Scene$MouseHandler.process(Scene.java:3856)
+	at javafx.graphics/javafx.scene.Scene.processMouseEvent(Scene.java:1851)
+	at javafx.graphics/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2584)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447)
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446)
+	at javafx.graphics/com.sun.glass.ui.View.handleMouseEvent(View.java:556)
+	at javafx.graphics/com.sun.glass.ui.View.notifyMouse(View.java:942)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-12-17 04:30:59,798 ERROR [JavaFX Application Thread] m.j.s.DodavanjeNoveBolestiController [DodavanjeNoveBolestiController.java:117] Bolest istih simptoma greska: 
+main.java.sample.covidportal.iznimke.BolestIstihSimptoma: Uneseni simptomi su duplikati iz prethodno unesenih bolesti!
+	at main.java.sample.Main.provjeraBolestiIstihSimptoma(Main.java:667)
+	at main.java.sample.DodavanjeNoveBolestiController.dodajNovuBolest(DodavanjeNoveBolestiController.java:72)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at javafx.base/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273)
+	at javafx.fxml/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83)
+	at javafx.fxml/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1859)
+	at javafx.fxml/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1729)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Node.fireEvent(Node.java:8886)
+	at javafx.controls/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208)
+	at javafx.controls/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Scene$MouseHandler.process(Scene.java:3856)
+	at javafx.graphics/javafx.scene.Scene.processMouseEvent(Scene.java:1851)
+	at javafx.graphics/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2584)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447)
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446)
+	at javafx.graphics/com.sun.glass.ui.View.handleMouseEvent(View.java:556)
+	at javafx.graphics/com.sun.glass.ui.View.notifyMouse(View.java:942)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-12-17 04:31:03,328 ERROR [JavaFX Application Thread] m.j.s.DodavanjeNoveBolestiController [DodavanjeNoveBolestiController.java:117] Bolest istih simptoma greska: 
+main.java.sample.covidportal.iznimke.BolestIstihSimptoma: Uneseni simptomi su duplikati iz prethodno unesenih bolesti!
+	at main.java.sample.Main.provjeraBolestiIstihSimptoma(Main.java:667)
+	at main.java.sample.DodavanjeNoveBolestiController.dodajNovuBolest(DodavanjeNoveBolestiController.java:72)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at javafx.base/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273)
+	at javafx.fxml/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83)
+	at javafx.fxml/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1859)
+	at javafx.fxml/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1729)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Node.fireEvent(Node.java:8886)
+	at javafx.controls/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208)
+	at javafx.controls/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Scene$MouseHandler.process(Scene.java:3856)
+	at javafx.graphics/javafx.scene.Scene.processMouseEvent(Scene.java:1851)
+	at javafx.graphics/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2584)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447)
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446)
+	at javafx.graphics/com.sun.glass.ui.View.handleMouseEvent(View.java:556)
+	at javafx.graphics/com.sun.glass.ui.View.notifyMouse(View.java:942)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-12-17 04:31:07,059 ERROR [JavaFX Application Thread] m.j.s.DodavanjeNoveBolestiController [DodavanjeNoveBolestiController.java:117] Bolest istih simptoma greska: 
+main.java.sample.covidportal.iznimke.BolestIstihSimptoma: Uneseni simptomi su duplikati iz prethodno unesenih bolesti!
+	at main.java.sample.Main.provjeraBolestiIstihSimptoma(Main.java:667)
+	at main.java.sample.DodavanjeNoveBolestiController.dodajNovuBolest(DodavanjeNoveBolestiController.java:72)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at javafx.base/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273)
+	at javafx.fxml/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83)
+	at javafx.fxml/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1859)
+	at javafx.fxml/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1729)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Node.fireEvent(Node.java:8886)
+	at javafx.controls/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208)
+	at javafx.controls/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Scene$MouseHandler.process(Scene.java:3856)
+	at javafx.graphics/javafx.scene.Scene.processMouseEvent(Scene.java:1851)
+	at javafx.graphics/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2584)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447)
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446)
+	at javafx.graphics/com.sun.glass.ui.View.handleMouseEvent(View.java:556)
+	at javafx.graphics/com.sun.glass.ui.View.notifyMouse(View.java:942)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-12-17 04:31:16,308 INFO [JavaFX Application Thread] m.j.s.DodavanjeNoveBolestiController [DodavanjeNoveBolestiController.java:106] Unesena je bolest: sssss
+2020-12-17 04:31:46,048 INFO [JavaFX Application Thread] m.j.s.DodavanjeNovogSimptomaController [DodavanjeNovogSimptomaController.java:63] Unesen je simptom: Novi simptom
+2020-12-17 04:32:19,070 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 1
+2020-12-17 04:32:19,072 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: GRAD ZAGREB
+2020-12-17 04:32:19,073 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 1000000
+2020-12-17 04:32:19,073 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 20000
+2020-12-17 04:32:19,074 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 2
+2020-12-17 04:32:19,075 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: MEĐIMURSKA
+2020-12-17 04:32:19,075 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 100000
+2020-12-17 04:32:19,075 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 500
+2020-12-17 04:32:19,075 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 3
+2020-12-17 04:32:19,075 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: VARAŽDINSKA
+2020-12-17 04:32:19,075 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 200000
+2020-12-17 04:32:19,075 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 10000
+2020-12-17 04:32:19,077 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 1
+2020-12-17 04:32:19,077 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: VISOKA TEMPERATURA
+2020-12-17 04:32:19,077 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: ČESTO
+2020-12-17 04:32:19,078 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 2
+2020-12-17 04:32:19,079 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GLAVOBOLJA
+2020-12-17 04:32:19,079 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: SREDNJE
+2020-12-17 04:32:19,079 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 3
+2020-12-17 04:32:19,079 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GRLOBOLJA
+2020-12-17 04:32:19,079 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: RIJETKO
+2020-12-17 04:32:19,081 INFO [main] m.j.s.Main [Main.java:510] Unesen je id simptoma: 11
+2020-12-17 04:32:19,081 INFO [main] m.j.s.Main [Main.java:514] Unesen je naziv bolesti: HERPES
+2020-12-17 04:32:19,084 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 21
+2020-12-17 04:32:19,084 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: COVID-19
+2020-12-17 04:32:19,085 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 22
+2020-12-17 04:32:19,086 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: Gripa
+2020-12-17 04:32:19,086 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 23
+2020-12-17 04:32:19,086 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: KONJUKTIVITIS
+2020-12-17 04:32:19,088 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 1
+2020-12-17 04:32:19,088 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Pero
+2020-12-17 04:32:19,088 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Perić
+2020-12-17 04:32:19,090 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 2
+2020-12-17 04:32:19,090 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Janko
+2020-12-17 04:32:19,090 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Janić
+2020-12-17 04:32:19,093 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 3
+2020-12-17 04:32:19,093 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Marica
+2020-12-17 04:32:19,093 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Ždrerić
+2020-12-17 04:37:33,690 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 1
+2020-12-17 04:37:33,693 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: GRAD ZAGREB
+2020-12-17 04:37:33,693 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 1000000
+2020-12-17 04:37:33,693 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 20000
+2020-12-17 04:37:33,695 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 2
+2020-12-17 04:37:33,695 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: MEĐIMURSKA
+2020-12-17 04:37:33,695 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 100000
+2020-12-17 04:37:33,695 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 500
+2020-12-17 04:37:33,695 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 3
+2020-12-17 04:37:33,695 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: VARAŽDINSKA
+2020-12-17 04:37:33,696 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 200000
+2020-12-17 04:37:33,696 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 10000
+2020-12-17 04:37:33,697 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 1
+2020-12-17 04:37:33,697 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: VISOKA TEMPERATURA
+2020-12-17 04:37:33,697 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: ČESTO
+2020-12-17 04:37:33,698 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 2
+2020-12-17 04:37:33,698 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GLAVOBOLJA
+2020-12-17 04:37:33,698 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: SREDNJE
+2020-12-17 04:37:33,699 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 3
+2020-12-17 04:37:33,699 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GRLOBOLJA
+2020-12-17 04:37:33,699 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: RIJETKO
+2020-12-17 04:37:33,699 INFO [main] m.j.s.Main [Main.java:510] Unesen je id simptoma: 11
+2020-12-17 04:37:33,699 INFO [main] m.j.s.Main [Main.java:514] Unesen je naziv bolesti: HERPES
+2020-12-17 04:37:33,702 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 21
+2020-12-17 04:37:33,702 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: COVID-19
+2020-12-17 04:37:33,703 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 22
+2020-12-17 04:37:33,704 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: Gripa
+2020-12-17 04:37:33,704 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 23
+2020-12-17 04:37:33,704 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: KONJUKTIVITIS
+2020-12-17 04:37:33,704 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 1
+2020-12-17 04:37:33,704 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Pero
+2020-12-17 04:37:33,704 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Perić
+2020-12-17 04:37:33,706 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 2
+2020-12-17 04:37:33,706 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Janko
+2020-12-17 04:37:33,706 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Janić
+2020-12-17 04:37:33,706 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 3
+2020-12-17 04:37:33,706 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Marica
+2020-12-17 04:37:33,706 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Ždrerić
+2020-12-17 04:38:02,830 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 1
+2020-12-17 04:38:02,834 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: GRAD ZAGREB
+2020-12-17 04:38:02,834 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 1000000
+2020-12-17 04:38:02,835 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 20000
+2020-12-17 04:38:02,840 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 2
+2020-12-17 04:38:02,840 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: MEĐIMURSKA
+2020-12-17 04:38:02,840 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 100000
+2020-12-17 04:38:02,840 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 500
+2020-12-17 04:38:02,840 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 3
+2020-12-17 04:38:02,841 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: VARAŽDINSKA
+2020-12-17 04:38:02,841 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 200000
+2020-12-17 04:38:02,841 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 10000
+2020-12-17 04:38:02,842 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 1
+2020-12-17 04:38:02,842 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: VISOKA TEMPERATURA
+2020-12-17 04:38:02,842 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: ČESTO
+2020-12-17 04:38:02,843 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 2
+2020-12-17 04:38:02,843 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GLAVOBOLJA
+2020-12-17 04:38:02,843 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: SREDNJE
+2020-12-17 04:38:02,843 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 3
+2020-12-17 04:38:02,843 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GRLOBOLJA
+2020-12-17 04:38:02,844 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: RIJETKO
+2020-12-17 04:38:02,844 INFO [main] m.j.s.Main [Main.java:510] Unesen je id simptoma: 11
+2020-12-17 04:38:02,844 INFO [main] m.j.s.Main [Main.java:514] Unesen je naziv bolesti: HERPES
+2020-12-17 04:38:02,846 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 21
+2020-12-17 04:38:02,846 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: COVID-19
+2020-12-17 04:38:02,847 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 22
+2020-12-17 04:38:02,847 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: Gripa
+2020-12-17 04:38:02,847 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 23
+2020-12-17 04:38:02,847 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: KONJUKTIVITIS
+2020-12-17 04:38:02,848 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 1
+2020-12-17 04:38:02,848 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Pero
+2020-12-17 04:38:02,848 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Perić
+2020-12-17 04:38:02,849 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 2
+2020-12-17 04:38:02,849 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Janko
+2020-12-17 04:38:02,849 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Janić
+2020-12-17 04:38:02,850 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 3
+2020-12-17 04:38:02,850 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Marica
+2020-12-17 04:38:02,850 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Ždrerić
+2020-12-17 13:21:42,976 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 1
+2020-12-17 13:21:42,979 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: GRAD ZAGREB
+2020-12-17 13:21:42,979 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 1000000
+2020-12-17 13:21:42,981 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 20000
+2020-12-17 13:21:42,997 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 2
+2020-12-17 13:21:42,997 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: MEĐIMURSKA
+2020-12-17 13:21:42,997 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 100000
+2020-12-17 13:21:42,998 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 500
+2020-12-17 13:21:42,998 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 3
+2020-12-17 13:21:42,998 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: VARAŽDINSKA
+2020-12-17 13:21:42,998 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 200000
+2020-12-17 13:21:42,998 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 10000
+2020-12-17 13:21:43,006 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 1
+2020-12-17 13:21:43,007 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: VISOKA TEMPERATURA
+2020-12-17 13:21:43,007 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: ČESTO
+2020-12-17 13:21:43,024 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 2
+2020-12-17 13:21:43,024 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GLAVOBOLJA
+2020-12-17 13:21:43,024 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: SREDNJE
+2020-12-17 13:21:43,024 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 3
+2020-12-17 13:21:43,024 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GRLOBOLJA
+2020-12-17 13:21:43,024 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: RIJETKO
+2020-12-17 13:21:43,031 INFO [main] m.j.s.Main [Main.java:510] Unesen je id simptoma: 11
+2020-12-17 13:21:43,032 INFO [main] m.j.s.Main [Main.java:514] Unesen je naziv bolesti: HERPES
+2020-12-17 13:21:43,046 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 21
+2020-12-17 13:21:43,047 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: COVID-19
+2020-12-17 13:21:43,064 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 22
+2020-12-17 13:21:43,064 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: Gripa
+2020-12-17 13:21:43,064 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 23
+2020-12-17 13:21:43,064 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: KONJUKTIVITIS
+2020-12-17 13:21:43,071 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 1
+2020-12-17 13:21:43,071 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Pero
+2020-12-17 13:21:43,071 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Perić
+2020-12-17 13:21:43,087 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 2
+2020-12-17 13:21:43,087 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Janko
+2020-12-17 13:21:43,087 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Janić
+2020-12-17 13:21:43,088 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 3
+2020-12-17 13:21:43,088 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Marica
+2020-12-17 13:21:43,088 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Ždrerić
+2020-12-17 16:55:27,220 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 1
+2020-12-17 16:55:27,223 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: GRAD ZAGREB
+2020-12-17 16:55:27,223 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 1000000
+2020-12-17 16:55:27,223 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 20000
+2020-12-17 16:55:27,225 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 2
+2020-12-17 16:55:27,226 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: MEĐIMURSKA
+2020-12-17 16:55:27,226 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 100000
+2020-12-17 16:55:27,226 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 500
+2020-12-17 16:55:27,227 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 3
+2020-12-17 16:55:27,227 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: VARAŽDINSKA
+2020-12-17 16:55:27,227 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 200000
+2020-12-17 16:55:27,227 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 10000
+2020-12-17 16:55:27,228 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 1
+2020-12-17 16:55:27,228 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: VISOKA TEMPERATURA
+2020-12-17 16:55:27,228 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: ČESTO
+2020-12-17 16:55:27,229 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 2
+2020-12-17 16:55:27,229 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GLAVOBOLJA
+2020-12-17 16:55:27,229 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: SREDNJE
+2020-12-17 16:55:27,230 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 3
+2020-12-17 16:55:27,230 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GRLOBOLJA
+2020-12-17 16:55:27,230 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: RIJETKO
+2020-12-17 16:55:27,230 INFO [main] m.j.s.Main [Main.java:510] Unesen je id simptoma: 11
+2020-12-17 16:55:27,230 INFO [main] m.j.s.Main [Main.java:514] Unesen je naziv bolesti: HERPES
+2020-12-17 16:55:27,234 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 21
+2020-12-17 16:55:27,234 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: COVID-19
+2020-12-17 16:55:27,236 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 22
+2020-12-17 16:55:27,236 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: Gripa
+2020-12-17 16:55:27,236 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 23
+2020-12-17 16:55:27,236 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: KONJUKTIVITIS
+2020-12-17 16:55:27,237 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 1
+2020-12-17 16:55:27,237 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Pero
+2020-12-17 16:55:27,237 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Perić
+2020-12-17 16:55:27,238 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 2
+2020-12-17 16:55:27,239 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Janko
+2020-12-17 16:55:27,239 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Janić
+2020-12-17 16:55:27,239 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 3
+2020-12-17 16:55:27,239 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Marica
+2020-12-17 16:55:27,239 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Ždrerić
+2020-12-17 16:56:01,351 ERROR [JavaFX Application Thread] m.j.s.DodavanjeNoveBolestiController [DodavanjeNoveBolestiController.java:122] Bolest istih simptoma greska: 
+main.java.sample.covidportal.iznimke.BolestIstihSimptoma: Uneseni simptomi su duplikati iz prethodno unesenih bolesti!
+	at main.java.sample.Main.provjeraBolestiIstihSimptoma(Main.java:667)
+	at main.java.sample.DodavanjeNoveBolestiController.dodajNovuBolest(DodavanjeNoveBolestiController.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at javafx.base/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273)
+	at javafx.fxml/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83)
+	at javafx.fxml/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1859)
+	at javafx.fxml/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1729)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Node.fireEvent(Node.java:8886)
+	at javafx.controls/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208)
+	at javafx.controls/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Scene$MouseHandler.process(Scene.java:3856)
+	at javafx.graphics/javafx.scene.Scene.processMouseEvent(Scene.java:1851)
+	at javafx.graphics/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2584)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447)
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446)
+	at javafx.graphics/com.sun.glass.ui.View.handleMouseEvent(View.java:556)
+	at javafx.graphics/com.sun.glass.ui.View.notifyMouse(View.java:942)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-12-17 16:56:05,413 INFO [JavaFX Application Thread] m.j.s.DodavanjeNoveBolestiController [DodavanjeNoveBolestiController.java:111] Unesena je bolest: Malarija
+2020-12-17 17:01:09,160 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 1
+2020-12-17 17:01:09,163 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: GRAD ZAGREB
+2020-12-17 17:01:09,164 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 1000000
+2020-12-17 17:01:09,164 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 20000
+2020-12-17 17:01:09,167 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 2
+2020-12-17 17:01:09,168 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: MEĐIMURSKA
+2020-12-17 17:01:09,168 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 100000
+2020-12-17 17:01:09,168 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 500
+2020-12-17 17:01:09,168 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 3
+2020-12-17 17:01:09,168 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: VARAŽDINSKA
+2020-12-17 17:01:09,168 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 200000
+2020-12-17 17:01:09,169 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 10000
+2020-12-17 17:01:09,169 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 1
+2020-12-17 17:01:09,169 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: VISOKA TEMPERATURA
+2020-12-17 17:01:09,169 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: ČESTO
+2020-12-17 17:01:09,171 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 2
+2020-12-17 17:01:09,171 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GLAVOBOLJA
+2020-12-17 17:01:09,172 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: SREDNJE
+2020-12-17 17:01:09,172 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 3
+2020-12-17 17:01:09,172 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GRLOBOLJA
+2020-12-17 17:01:09,172 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: RIJETKO
+2020-12-17 17:01:09,173 INFO [main] m.j.s.Main [Main.java:510] Unesen je id simptoma: 11
+2020-12-17 17:01:09,173 INFO [main] m.j.s.Main [Main.java:514] Unesen je naziv bolesti: HERPES
+2020-12-17 17:01:09,175 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 21
+2020-12-17 17:01:09,175 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: COVID-19
+2020-12-17 17:01:09,177 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 22
+2020-12-17 17:01:09,177 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: Gripa
+2020-12-17 17:01:09,177 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 23
+2020-12-17 17:01:09,177 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: KONJUKTIVITIS
+2020-12-17 17:01:09,178 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 1
+2020-12-17 17:01:09,178 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Pero
+2020-12-17 17:01:09,178 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Perić
+2020-12-17 17:01:09,180 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 2
+2020-12-17 17:01:09,180 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Janko
+2020-12-17 17:01:09,180 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Janić
+2020-12-17 17:01:09,181 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 3
+2020-12-17 17:01:09,181 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Marica
+2020-12-17 17:01:09,181 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Ždrerić
+2020-12-17 17:01:23,879 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 1
+2020-12-17 17:01:23,882 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: GRAD ZAGREB
+2020-12-17 17:01:23,882 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 1000000
+2020-12-17 17:01:23,883 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 20000
+2020-12-17 17:01:23,884 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 2
+2020-12-17 17:01:23,884 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: MEĐIMURSKA
+2020-12-17 17:01:23,885 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 100000
+2020-12-17 17:01:23,885 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 500
+2020-12-17 17:01:23,885 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 3
+2020-12-17 17:01:23,885 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: VARAŽDINSKA
+2020-12-17 17:01:23,885 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 200000
+2020-12-17 17:01:23,885 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 10000
+2020-12-17 17:01:23,886 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 1
+2020-12-17 17:01:23,886 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: VISOKA TEMPERATURA
+2020-12-17 17:01:23,886 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: ČESTO
+2020-12-17 17:01:23,887 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 2
+2020-12-17 17:01:23,887 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GLAVOBOLJA
+2020-12-17 17:01:23,887 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: SREDNJE
+2020-12-17 17:01:23,887 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 3
+2020-12-17 17:01:23,887 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GRLOBOLJA
+2020-12-17 17:01:23,887 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: RIJETKO
+2020-12-17 17:01:23,888 INFO [main] m.j.s.Main [Main.java:510] Unesen je id simptoma: 11
+2020-12-17 17:01:23,888 INFO [main] m.j.s.Main [Main.java:514] Unesen je naziv bolesti: HERPES
+2020-12-17 17:01:23,889 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 21
+2020-12-17 17:01:23,890 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: COVID-19
+2020-12-17 17:01:23,891 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 22
+2020-12-17 17:01:23,891 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: Gripa
+2020-12-17 17:01:23,891 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 23
+2020-12-17 17:01:23,891 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: KONJUKTIVITIS
+2020-12-17 17:01:23,892 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 1
+2020-12-17 17:01:23,892 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Pero
+2020-12-17 17:01:23,892 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Perić
+2020-12-17 17:01:23,893 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 2
+2020-12-17 17:01:23,893 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Janko
+2020-12-17 17:01:23,893 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Janić
+2020-12-17 17:01:23,894 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 3
+2020-12-17 17:01:23,894 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Marica
+2020-12-17 17:01:23,894 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Ždrerić
+2020-12-17 17:01:47,543 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 1
+2020-12-17 17:01:47,546 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: GRAD ZAGREB
+2020-12-17 17:01:47,546 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 1000000
+2020-12-17 17:01:47,547 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 20000
+2020-12-17 17:01:47,548 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 2
+2020-12-17 17:01:47,549 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: MEĐIMURSKA
+2020-12-17 17:01:47,549 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 100000
+2020-12-17 17:01:47,549 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 500
+2020-12-17 17:01:47,549 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 3
+2020-12-17 17:01:47,550 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: VARAŽDINSKA
+2020-12-17 17:01:47,550 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 200000
+2020-12-17 17:01:47,550 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 10000
+2020-12-17 17:01:47,551 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 1
+2020-12-17 17:01:47,551 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: VISOKA TEMPERATURA
+2020-12-17 17:01:47,551 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: ČESTO
+2020-12-17 17:01:47,552 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 2
+2020-12-17 17:01:47,552 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GLAVOBOLJA
+2020-12-17 17:01:47,552 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: SREDNJE
+2020-12-17 17:01:47,553 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 3
+2020-12-17 17:01:47,553 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GRLOBOLJA
+2020-12-17 17:01:47,553 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: RIJETKO
+2020-12-17 17:01:47,553 INFO [main] m.j.s.Main [Main.java:510] Unesen je id simptoma: 11
+2020-12-17 17:01:47,553 INFO [main] m.j.s.Main [Main.java:514] Unesen je naziv bolesti: HERPES
+2020-12-17 17:01:47,555 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 21
+2020-12-17 17:01:47,555 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: COVID-19
+2020-12-17 17:01:47,556 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 22
+2020-12-17 17:01:47,556 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: Gripa
+2020-12-17 17:01:47,556 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 23
+2020-12-17 17:01:47,556 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: KONJUKTIVITIS
+2020-12-17 17:01:47,557 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 1
+2020-12-17 17:01:47,558 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Pero
+2020-12-17 17:01:47,558 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Perić
+2020-12-17 17:01:47,559 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 2
+2020-12-17 17:01:47,559 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Janko
+2020-12-17 17:01:47,559 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Janić
+2020-12-17 17:01:47,560 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 3
+2020-12-17 17:01:47,560 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Marica
+2020-12-17 17:01:47,560 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Ždrerić
+2020-12-17 17:18:44,572 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 1
+2020-12-17 17:18:44,577 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: GRAD ZAGREB
+2020-12-17 17:18:44,578 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 1000000
+2020-12-17 17:18:44,578 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 20000
+2020-12-17 17:18:44,581 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 2
+2020-12-17 17:18:44,581 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: MEĐIMURSKA
+2020-12-17 17:18:44,582 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 100000
+2020-12-17 17:18:44,582 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 500
+2020-12-17 17:18:44,582 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 3
+2020-12-17 17:18:44,582 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: VARAŽDINSKA
+2020-12-17 17:18:44,582 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 200000
+2020-12-17 17:18:44,583 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 10000
+2020-12-17 17:18:44,583 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 1
+2020-12-17 17:18:44,584 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: VISOKA TEMPERATURA
+2020-12-17 17:18:44,584 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: ČESTO
+2020-12-17 17:18:44,585 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 2
+2020-12-17 17:18:44,585 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GLAVOBOLJA
+2020-12-17 17:18:44,585 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: SREDNJE
+2020-12-17 17:18:44,585 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 3
+2020-12-17 17:18:44,585 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GRLOBOLJA
+2020-12-17 17:18:44,585 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: RIJETKO
+2020-12-17 17:18:44,586 INFO [main] m.j.s.Main [Main.java:510] Unesen je id simptoma: 11
+2020-12-17 17:18:44,586 INFO [main] m.j.s.Main [Main.java:514] Unesen je naziv bolesti: HERPES
+2020-12-17 17:18:44,591 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 21
+2020-12-17 17:18:44,591 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: COVID-19
+2020-12-17 17:18:44,592 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 22
+2020-12-17 17:18:44,593 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: Gripa
+2020-12-17 17:18:44,593 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 23
+2020-12-17 17:18:44,593 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: KONJUKTIVITIS
+2020-12-17 17:18:44,593 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 1
+2020-12-17 17:18:44,593 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Pero
+2020-12-17 17:18:44,594 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Perić
+2020-12-17 17:18:44,595 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 2
+2020-12-17 17:18:44,595 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Janko
+2020-12-17 17:18:44,595 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Janić
+2020-12-17 17:18:44,595 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 3
+2020-12-17 17:18:44,596 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Marica
+2020-12-17 17:18:44,596 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Ždrerić
+2020-12-17 17:19:52,767 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 1
+2020-12-17 17:19:52,771 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: GRAD ZAGREB
+2020-12-17 17:19:52,771 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 1000000
+2020-12-17 17:19:52,771 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 20000
+2020-12-17 17:19:52,773 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 2
+2020-12-17 17:19:52,773 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: MEĐIMURSKA
+2020-12-17 17:19:52,773 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 100000
+2020-12-17 17:19:52,774 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 500
+2020-12-17 17:19:52,774 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 3
+2020-12-17 17:19:52,774 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: VARAŽDINSKA
+2020-12-17 17:19:52,774 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 200000
+2020-12-17 17:19:52,774 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 10000
+2020-12-17 17:19:52,774 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 1
+2020-12-17 17:19:52,775 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: VISOKA TEMPERATURA
+2020-12-17 17:19:52,775 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: ČESTO
+2020-12-17 17:19:52,776 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 2
+2020-12-17 17:19:52,776 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GLAVOBOLJA
+2020-12-17 17:19:52,776 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: SREDNJE
+2020-12-17 17:19:52,776 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 3
+2020-12-17 17:19:52,776 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GRLOBOLJA
+2020-12-17 17:19:52,776 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: RIJETKO
+2020-12-17 17:19:52,776 INFO [main] m.j.s.Main [Main.java:510] Unesen je id simptoma: 11
+2020-12-17 17:19:52,777 INFO [main] m.j.s.Main [Main.java:514] Unesen je naziv bolesti: HERPES
+2020-12-17 17:19:52,778 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 21
+2020-12-17 17:19:52,778 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: COVID-19
+2020-12-17 17:19:52,779 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 22
+2020-12-17 17:19:52,780 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: Gripa
+2020-12-17 17:19:52,780 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 23
+2020-12-17 17:19:52,780 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: KONJUKTIVITIS
+2020-12-17 17:19:52,780 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 1
+2020-12-17 17:19:52,780 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Pero
+2020-12-17 17:19:52,780 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Perić
+2020-12-17 17:19:52,782 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 2
+2020-12-17 17:19:52,782 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Janko
+2020-12-17 17:19:52,782 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Janić
+2020-12-17 17:19:52,782 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 3
+2020-12-17 17:19:52,782 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Marica
+2020-12-17 17:19:52,783 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Ždrerić
+2020-12-17 17:20:16,528 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 1
+2020-12-17 17:20:16,531 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: GRAD ZAGREB
+2020-12-17 17:20:16,531 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 1000000
+2020-12-17 17:20:16,531 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 20000
+2020-12-17 17:20:16,533 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 2
+2020-12-17 17:20:16,533 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: MEĐIMURSKA
+2020-12-17 17:20:16,533 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 100000
+2020-12-17 17:20:16,533 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 500
+2020-12-17 17:20:16,533 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 3
+2020-12-17 17:20:16,534 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: VARAŽDINSKA
+2020-12-17 17:20:16,534 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 200000
+2020-12-17 17:20:16,534 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 10000
+2020-12-17 17:20:16,534 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 1
+2020-12-17 17:20:16,535 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: VISOKA TEMPERATURA
+2020-12-17 17:20:16,535 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: ČESTO
+2020-12-17 17:20:16,536 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 2
+2020-12-17 17:20:16,536 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GLAVOBOLJA
+2020-12-17 17:20:16,536 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: SREDNJE
+2020-12-17 17:20:16,536 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 3
+2020-12-17 17:20:16,536 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GRLOBOLJA
+2020-12-17 17:20:16,536 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: RIJETKO
+2020-12-17 17:20:16,537 INFO [main] m.j.s.Main [Main.java:510] Unesen je id simptoma: 11
+2020-12-17 17:20:16,537 INFO [main] m.j.s.Main [Main.java:514] Unesen je naziv bolesti: HERPES
+2020-12-17 17:20:16,539 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 21
+2020-12-17 17:20:16,539 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: COVID-19
+2020-12-17 17:20:16,540 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 22
+2020-12-17 17:20:16,540 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: Gripa
+2020-12-17 17:20:16,540 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 23
+2020-12-17 17:20:16,540 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: KONJUKTIVITIS
+2020-12-17 17:20:16,541 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 1
+2020-12-17 17:20:16,541 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Pero
+2020-12-17 17:20:16,541 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Perić
+2020-12-17 17:20:16,542 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 2
+2020-12-17 17:20:16,542 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Janko
+2020-12-17 17:20:16,542 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Janić
+2020-12-17 17:20:16,543 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 3
+2020-12-17 17:20:16,543 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Marica
+2020-12-17 17:20:16,543 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Ždrerić
+2020-12-17 17:22:31,316 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 1
+2020-12-17 17:22:31,319 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: GRAD ZAGREB
+2020-12-17 17:22:31,320 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 1000000
+2020-12-17 17:22:31,320 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 20000
+2020-12-17 17:22:31,322 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 2
+2020-12-17 17:22:31,323 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: MEĐIMURSKA
+2020-12-17 17:22:31,324 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 100000
+2020-12-17 17:22:31,324 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 500
+2020-12-17 17:22:31,325 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 3
+2020-12-17 17:22:31,326 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: VARAŽDINSKA
+2020-12-17 17:22:31,326 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 200000
+2020-12-17 17:22:31,326 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 10000
+2020-12-17 17:22:31,326 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 1
+2020-12-17 17:22:31,327 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: VISOKA TEMPERATURA
+2020-12-17 17:22:31,327 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: ČESTO
+2020-12-17 17:22:31,328 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 2
+2020-12-17 17:22:31,329 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GLAVOBOLJA
+2020-12-17 17:22:31,329 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: SREDNJE
+2020-12-17 17:22:31,329 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 3
+2020-12-17 17:22:31,329 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GRLOBOLJA
+2020-12-17 17:22:31,329 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: RIJETKO
+2020-12-17 17:22:31,329 INFO [main] m.j.s.Main [Main.java:510] Unesen je id simptoma: 11
+2020-12-17 17:22:31,330 INFO [main] m.j.s.Main [Main.java:514] Unesen je naziv bolesti: HERPES
+2020-12-17 17:22:31,332 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 21
+2020-12-17 17:22:31,333 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: COVID-19
+2020-12-17 17:22:31,334 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 22
+2020-12-17 17:22:31,336 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: Gripa
+2020-12-17 17:22:31,336 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 23
+2020-12-17 17:22:31,336 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: KONJUKTIVITIS
+2020-12-17 17:22:31,337 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 1
+2020-12-17 17:22:31,337 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Pero
+2020-12-17 17:22:31,337 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Perić
+2020-12-17 17:22:31,339 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 2
+2020-12-17 17:22:31,339 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Janko
+2020-12-17 17:22:31,339 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Janić
+2020-12-17 17:22:31,339 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 3
+2020-12-17 17:22:31,340 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Marica
+2020-12-17 17:22:31,340 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Ždrerić
+2020-12-17 17:22:36,747 ERROR [JavaFX Application Thread] m.j.s.DodavanjeNoveBolestiController [DodavanjeNoveBolestiController.java:142] Unio sam prazan string: 
+java.lang.Exception: Prazan string
+	at main.java.sample.DodavanjeNoveBolestiController.dodajNovuBolest(DodavanjeNoveBolestiController.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at javafx.base/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273)
+	at javafx.fxml/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83)
+	at javafx.fxml/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1859)
+	at javafx.fxml/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1729)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Node.fireEvent(Node.java:8886)
+	at javafx.controls/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208)
+	at javafx.controls/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Scene$MouseHandler.process(Scene.java:3856)
+	at javafx.graphics/javafx.scene.Scene.processMouseEvent(Scene.java:1851)
+	at javafx.graphics/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2584)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447)
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446)
+	at javafx.graphics/com.sun.glass.ui.View.handleMouseEvent(View.java:556)
+	at javafx.graphics/com.sun.glass.ui.View.notifyMouse(View.java:942)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-12-17 17:22:41,881 ERROR [JavaFX Application Thread] m.j.s.DodavanjeNoveBolestiController [DodavanjeNoveBolestiController.java:142] Unio sam prazan string: 
+java.lang.Exception: Prazan string
+	at main.java.sample.DodavanjeNoveBolestiController.dodajNovuBolest(DodavanjeNoveBolestiController.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at javafx.base/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273)
+	at javafx.fxml/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83)
+	at javafx.fxml/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1859)
+	at javafx.fxml/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1729)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Node.fireEvent(Node.java:8886)
+	at javafx.controls/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208)
+	at javafx.controls/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Scene$MouseHandler.process(Scene.java:3856)
+	at javafx.graphics/javafx.scene.Scene.processMouseEvent(Scene.java:1851)
+	at javafx.graphics/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2584)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447)
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446)
+	at javafx.graphics/com.sun.glass.ui.View.handleMouseEvent(View.java:556)
+	at javafx.graphics/com.sun.glass.ui.View.notifyMouse(View.java:942)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-12-17 17:22:53,811 INFO [JavaFX Application Thread] m.j.s.DodavanjeNoveBolestiController [DodavanjeNoveBolestiController.java:125] Unesena je bolest: Nova
+2020-12-17 17:26:03,736 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 1
+2020-12-17 17:26:03,739 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: GRAD ZAGREB
+2020-12-17 17:26:03,740 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 1000000
+2020-12-17 17:26:03,740 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 20000
+2020-12-17 17:26:03,741 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 2
+2020-12-17 17:26:03,742 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: MEĐIMURSKA
+2020-12-17 17:26:03,743 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 100000
+2020-12-17 17:26:03,743 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 500
+2020-12-17 17:26:03,743 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 3
+2020-12-17 17:26:03,743 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: VARAŽDINSKA
+2020-12-17 17:26:03,743 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 200000
+2020-12-17 17:26:03,743 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 10000
+2020-12-17 17:26:03,744 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 1
+2020-12-17 17:26:03,744 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: VISOKA TEMPERATURA
+2020-12-17 17:26:03,744 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: ČESTO
+2020-12-17 17:26:03,746 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 2
+2020-12-17 17:26:03,746 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GLAVOBOLJA
+2020-12-17 17:26:03,746 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: SREDNJE
+2020-12-17 17:26:03,746 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 3
+2020-12-17 17:26:03,746 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GRLOBOLJA
+2020-12-17 17:26:03,746 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: RIJETKO
+2020-12-17 17:26:03,747 INFO [main] m.j.s.Main [Main.java:510] Unesen je id simptoma: 11
+2020-12-17 17:26:03,747 INFO [main] m.j.s.Main [Main.java:514] Unesen je naziv bolesti: HERPES
+2020-12-17 17:26:03,749 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 21
+2020-12-17 17:26:03,749 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: COVID-19
+2020-12-17 17:26:03,750 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 22
+2020-12-17 17:26:03,751 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: Gripa
+2020-12-17 17:26:03,751 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 23
+2020-12-17 17:26:03,751 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: KONJUKTIVITIS
+2020-12-17 17:26:03,752 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 1
+2020-12-17 17:26:03,752 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Pero
+2020-12-17 17:26:03,752 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Perić
+2020-12-17 17:26:03,754 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 2
+2020-12-17 17:26:03,754 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Janko
+2020-12-17 17:26:03,754 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Janić
+2020-12-17 17:26:03,754 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 3
+2020-12-17 17:26:03,755 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Marica
+2020-12-17 17:26:03,755 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Ždrerić
+2020-12-17 17:27:51,695 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 1
+2020-12-17 17:27:51,699 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: GRAD ZAGREB
+2020-12-17 17:27:51,699 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 1000000
+2020-12-17 17:27:51,699 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 20000
+2020-12-17 17:27:51,702 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 2
+2020-12-17 17:27:51,703 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: MEĐIMURSKA
+2020-12-17 17:27:51,703 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 100000
+2020-12-17 17:27:51,703 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 500
+2020-12-17 17:27:51,703 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 3
+2020-12-17 17:27:51,704 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: VARAŽDINSKA
+2020-12-17 17:27:51,704 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 200000
+2020-12-17 17:27:51,704 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 10000
+2020-12-17 17:27:51,705 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 1
+2020-12-17 17:27:51,705 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: VISOKA TEMPERATURA
+2020-12-17 17:27:51,705 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: ČESTO
+2020-12-17 17:27:51,706 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 2
+2020-12-17 17:27:51,706 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GLAVOBOLJA
+2020-12-17 17:27:51,706 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: SREDNJE
+2020-12-17 17:27:51,706 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 3
+2020-12-17 17:27:51,706 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GRLOBOLJA
+2020-12-17 17:27:51,706 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: RIJETKO
+2020-12-17 17:27:51,707 INFO [main] m.j.s.Main [Main.java:510] Unesen je id simptoma: 11
+2020-12-17 17:27:51,707 INFO [main] m.j.s.Main [Main.java:514] Unesen je naziv bolesti: HERPES
+2020-12-17 17:27:51,709 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 21
+2020-12-17 17:27:51,709 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: COVID-19
+2020-12-17 17:27:51,710 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 22
+2020-12-17 17:27:51,710 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: Gripa
+2020-12-17 17:27:51,710 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 23
+2020-12-17 17:27:51,710 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: KONJUKTIVITIS
+2020-12-17 17:27:51,710 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 1
+2020-12-17 17:27:51,711 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Pero
+2020-12-17 17:27:51,711 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Perić
+2020-12-17 17:27:51,712 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 2
+2020-12-17 17:27:51,712 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Janko
+2020-12-17 17:27:51,712 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Janić
+2020-12-17 17:27:51,713 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 3
+2020-12-17 17:27:51,713 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Marica
+2020-12-17 17:27:51,713 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Ždrerić
+2020-12-17 17:28:15,373 INFO [JavaFX Application Thread] m.j.s.DodavanjeNoveBolestiController [DodavanjeNoveBolestiController.java:129] Unesena je bolest: Nova
+2020-12-17 17:32:59,041 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 1
+2020-12-17 17:32:59,044 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: GRAD ZAGREB
+2020-12-17 17:32:59,044 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 1000000
+2020-12-17 17:32:59,045 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 20000
+2020-12-17 17:32:59,046 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 2
+2020-12-17 17:32:59,047 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: MEĐIMURSKA
+2020-12-17 17:32:59,047 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 100000
+2020-12-17 17:32:59,047 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 500
+2020-12-17 17:32:59,047 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 3
+2020-12-17 17:32:59,047 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: VARAŽDINSKA
+2020-12-17 17:32:59,048 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 200000
+2020-12-17 17:32:59,048 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 10000
+2020-12-17 17:32:59,048 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 1
+2020-12-17 17:32:59,048 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: VISOKA TEMPERATURA
+2020-12-17 17:32:59,048 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: ČESTO
+2020-12-17 17:32:59,050 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 2
+2020-12-17 17:32:59,050 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GLAVOBOLJA
+2020-12-17 17:32:59,050 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: SREDNJE
+2020-12-17 17:32:59,051 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 3
+2020-12-17 17:32:59,051 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GRLOBOLJA
+2020-12-17 17:32:59,051 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: RIJETKO
+2020-12-17 17:32:59,052 INFO [main] m.j.s.Main [Main.java:510] Unesen je id simptoma: 11
+2020-12-17 17:32:59,052 INFO [main] m.j.s.Main [Main.java:514] Unesen je naziv bolesti: HERPES
+2020-12-17 17:32:59,054 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 21
+2020-12-17 17:32:59,054 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: COVID-19
+2020-12-17 17:32:59,055 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 22
+2020-12-17 17:32:59,055 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: Gripa
+2020-12-17 17:32:59,055 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 23
+2020-12-17 17:32:59,055 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: KONJUKTIVITIS
+2020-12-17 17:32:59,056 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 1
+2020-12-17 17:32:59,056 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Pero
+2020-12-17 17:32:59,056 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Perić
+2020-12-17 17:32:59,057 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 2
+2020-12-17 17:32:59,058 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Janko
+2020-12-17 17:32:59,058 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Janić
+2020-12-17 17:32:59,058 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 3
+2020-12-17 17:32:59,058 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Marica
+2020-12-17 17:32:59,058 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Ždrerić
+2020-12-17 17:33:08,364 INFO [JavaFX Application Thread] m.j.s.DodavanjeNoveBolestiController [DodavanjeNoveBolestiController.java:129] Unesena je bolest: awdw
+2020-12-17 17:35:11,895 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 1
+2020-12-17 17:35:11,898 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: GRAD ZAGREB
+2020-12-17 17:35:11,899 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 1000000
+2020-12-17 17:35:11,899 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 20000
+2020-12-17 17:35:11,901 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 2
+2020-12-17 17:35:11,901 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: MEĐIMURSKA
+2020-12-17 17:35:11,901 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 100000
+2020-12-17 17:35:11,902 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 500
+2020-12-17 17:35:11,902 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 3
+2020-12-17 17:35:11,902 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: VARAŽDINSKA
+2020-12-17 17:35:11,902 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 200000
+2020-12-17 17:35:11,902 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 10000
+2020-12-17 17:35:11,903 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 1
+2020-12-17 17:35:11,903 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: VISOKA TEMPERATURA
+2020-12-17 17:35:11,903 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: ČESTO
+2020-12-17 17:35:11,904 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 2
+2020-12-17 17:35:11,904 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GLAVOBOLJA
+2020-12-17 17:35:11,904 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: SREDNJE
+2020-12-17 17:35:11,905 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 3
+2020-12-17 17:35:11,905 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GRLOBOLJA
+2020-12-17 17:35:11,905 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: RIJETKO
+2020-12-17 17:35:11,906 INFO [main] m.j.s.Main [Main.java:510] Unesen je id simptoma: 11
+2020-12-17 17:35:11,906 INFO [main] m.j.s.Main [Main.java:514] Unesen je naziv bolesti: HERPES
+2020-12-17 17:35:11,908 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 21
+2020-12-17 17:35:11,908 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: COVID-19
+2020-12-17 17:35:11,910 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 22
+2020-12-17 17:35:11,910 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: Gripa
+2020-12-17 17:35:11,911 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 23
+2020-12-17 17:35:11,911 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: KONJUKTIVITIS
+2020-12-17 17:35:11,911 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 1
+2020-12-17 17:35:11,911 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Pero
+2020-12-17 17:35:11,911 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Perić
+2020-12-17 17:35:11,912 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 2
+2020-12-17 17:35:11,913 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Janko
+2020-12-17 17:35:11,913 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Janić
+2020-12-17 17:35:11,913 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 3
+2020-12-17 17:35:11,913 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Marica
+2020-12-17 17:35:11,913 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Ždrerić
+2020-12-17 17:35:26,267 ERROR [JavaFX Application Thread] m.j.s.DodavanjeNoveBolestiController [DodavanjeNoveBolestiController.java:146] Unio sam prazan string: 
+java.lang.Exception: Prazan string
+	at main.java.sample.DodavanjeNoveBolestiController.dodajNovuBolest(DodavanjeNoveBolestiController.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at javafx.base/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273)
+	at javafx.fxml/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83)
+	at javafx.fxml/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1859)
+	at javafx.fxml/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1729)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Node.fireEvent(Node.java:8886)
+	at javafx.controls/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208)
+	at javafx.controls/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Scene$MouseHandler.process(Scene.java:3856)
+	at javafx.graphics/javafx.scene.Scene.processMouseEvent(Scene.java:1851)
+	at javafx.graphics/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2584)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447)
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446)
+	at javafx.graphics/com.sun.glass.ui.View.handleMouseEvent(View.java:556)
+	at javafx.graphics/com.sun.glass.ui.View.notifyMouse(View.java:942)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-12-17 17:35:30,541 INFO [JavaFX Application Thread] m.j.s.DodavanjeNoveBolestiController [DodavanjeNoveBolestiController.java:129] Unesena je bolest: Nova
+2020-12-17 17:48:02,556 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 1
+2020-12-17 17:48:02,559 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: GRAD ZAGREB
+2020-12-17 17:48:02,559 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 1000000
+2020-12-17 17:48:02,559 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 20000
+2020-12-17 17:48:02,561 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 2
+2020-12-17 17:48:02,561 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: MEĐIMURSKA
+2020-12-17 17:48:02,561 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 100000
+2020-12-17 17:48:02,561 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 500
+2020-12-17 17:48:02,561 INFO [main] m.j.s.Main [Main.java:365] Unesen je id županija: 3
+2020-12-17 17:48:02,561 INFO [main] m.j.s.Main [Main.java:369] Unesen je naziv zupanije: VARAŽDINSKA
+2020-12-17 17:48:02,562 INFO [main] m.j.s.Main [Main.java:373] Unesen je broj stanovnika: 200000
+2020-12-17 17:48:02,562 INFO [main] m.j.s.Main [Main.java:377] Unesen je broj zaraženih stanovnika: 10000
+2020-12-17 17:48:02,562 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 1
+2020-12-17 17:48:02,562 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: VISOKA TEMPERATURA
+2020-12-17 17:48:02,563 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: ČESTO
+2020-12-17 17:48:02,564 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 2
+2020-12-17 17:48:02,564 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GLAVOBOLJA
+2020-12-17 17:48:02,564 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: SREDNJE
+2020-12-17 17:48:02,564 INFO [main] m.j.s.Main [Main.java:427] Unesen je id simptoma: 3
+2020-12-17 17:48:02,564 INFO [main] m.j.s.Main [Main.java:431] Unesen je naziv simptoma: GRLOBOLJA
+2020-12-17 17:48:02,564 INFO [main] m.j.s.Main [Main.java:435] Unesena je vrijednost simptoma: RIJETKO
+2020-12-17 17:48:02,565 INFO [main] m.j.s.Main [Main.java:510] Unesen je id simptoma: 11
+2020-12-17 17:48:02,565 INFO [main] m.j.s.Main [Main.java:514] Unesen je naziv bolesti: HERPES
+2020-12-17 17:48:02,566 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 21
+2020-12-17 17:48:02,567 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: COVID-19
+2020-12-17 17:48:02,568 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 22
+2020-12-17 17:48:02,568 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: Gripa
+2020-12-17 17:48:02,568 INFO [main] m.j.s.Main [Main.java:582] Unesen je id simptoma: 23
+2020-12-17 17:48:02,568 INFO [main] m.j.s.Main [Main.java:586] Unesen je naziv virusa: KONJUKTIVITIS
+2020-12-17 17:48:02,568 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 1
+2020-12-17 17:48:02,569 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Pero
+2020-12-17 17:48:02,569 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Perić
+2020-12-17 17:48:02,570 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 2
+2020-12-17 17:48:02,570 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Janko
+2020-12-17 17:48:02,570 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Janić
+2020-12-17 17:48:02,571 INFO [main] m.j.s.Main [Main.java:751] Unesen je id osobe: 3
+2020-12-17 17:48:02,571 INFO [main] m.j.s.Main [Main.java:755] Unesen je ime osobe: Marica
+2020-12-17 17:48:02,571 INFO [main] m.j.s.Main [Main.java:759] Unesen je prezime osobe: Ždrerić

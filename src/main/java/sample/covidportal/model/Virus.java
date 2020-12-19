@@ -20,8 +20,8 @@ public class Virus extends Bolest implements Zarazno, Serializable {
      * @param simptomi
      */
 
-    public Virus(Long id, String naziv, Set<Simptom> simptomi) {
-        super(id, naziv, simptomi);
+    public Virus(Long id, String naziv, Set<Simptom> simptomi, String opis) {
+        super(id, naziv, simptomi, opis);
     }
 
     /**
@@ -60,7 +60,7 @@ public class Virus extends Bolest implements Zarazno, Serializable {
     // "Deep Copy" implementacija prelaska zaraze na drugu osobu
     @Override
     public void prelazakZarazeNaOsobu(Osoba osoba) {
-        osoba.setZarazenBolescu(new Virus(this.getId(), this.getNaziv(), this.getSimptomi()));
+        osoba.setZarazenBolescu(new Virus(this.getId(), this.getNaziv(), this.getSimptomi(), this.getOpis()));
     }
 
     @Override

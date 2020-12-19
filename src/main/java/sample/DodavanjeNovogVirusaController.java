@@ -32,6 +32,9 @@ public class DodavanjeNovogVirusaController {
     @FXML
     private TextField simptomi;
 
+    @FXML
+    private TextField opis;
+
     public void dodajNoviVirus() {
         File unosBolesti = new File("dat/virusi.txt");
         try (
@@ -40,6 +43,7 @@ public class DodavanjeNovogVirusaController {
         ) {
             String nazivVirusaText = nazivVirusa.getText();
             String simptomiText = simptomi.getText();
+            String opisText = opis.getText();
 
             Set<Simptom> odabraniSimptomi = new HashSet<>();
 
@@ -73,7 +77,7 @@ public class DodavanjeNovogVirusaController {
 
             }
 
-            Virus noviVirus = new Virus(Long.parseLong("2"+((Integer.valueOf((int) Main.bolesti.stream().filter(b -> (b instanceof Virus)).count() + 1)).toString())), nazivVirusaText, odabraniSimptomi);
+            Virus noviVirus = new Virus(Long.parseLong("2"+((Integer.valueOf((int) Main.bolesti.stream().filter(b -> (b instanceof Virus)).count() + 1)).toString())), nazivVirusaText, odabraniSimptomi, opisText);
 
             // Provjera da li je unos bolest ili virus i unos u polje bolesti
 
@@ -93,11 +97,14 @@ public class DodavanjeNovogVirusaController {
                     .stream()
                     .map(simptom -> simptom.getId().toString())
                     .collect(Collectors.toList())) +"\n");
+            writer.write(noviVirus.getOpis()+"\n");
 
             logger.info("Unesen je virus: " + noviVirus.getNaziv());
 
             nazivVirusaText = null;
             simptomiText = null;
+
+            PocetniEkranController.uspjesanUnos();
 
         } catch (IOException e) {
             PocetniEkranController.neuspjesanUnos(e.getMessage());

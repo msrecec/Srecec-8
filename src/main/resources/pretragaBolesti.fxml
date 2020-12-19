@@ -49,8 +49,9 @@
     <TableView fx:id="tablicaBolesti" prefHeight="271.0" prefWidth="550.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="7" GridPane.rowSpan="2147483647">
         <columns>
             <TableColumn fx:id="nazivStupac" prefWidth="269.0" text="Naziv bolesti" />
-            <TableColumn fx:id="simptomiStupac" maxWidth="1.7976931348623157E308" prefWidth="400.0" text="Simptomi" />
-            <TableColumn fx:id="idStupac" prefWidth="130.0" text="Id" />
+            <TableColumn fx:id="simptomiStupac" maxWidth="1.7976931348623157E308" prefWidth="266.0" text="Simptomi" />
+            <TableColumn fx:id="idStupac" prefWidth="66.0" text="Id" />
+            <TableColumn fx:id="opisStupac" prefWidth="198.0" text="Opis" />
         </columns>
     </TableView>
     <Label text="Pretraživanje bolesti" GridPane.columnIndex="1" GridPane.columnSpan="4" GridPane.halignment="LEFT" GridPane.rowIndex="1">

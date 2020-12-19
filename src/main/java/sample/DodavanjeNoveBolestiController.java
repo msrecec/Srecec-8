@@ -3,6 +3,7 @@ package main.java.sample;
 import javafx.collections.FXCollections;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
 import javafx.scene.control.TextField;
 import main.java.sample.covidportal.enumeracija.VrijednostSimptoma;
 import main.java.sample.covidportal.iznimke.BolestIstihSimptoma;
@@ -16,13 +17,11 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Set;
+import java.net.URL;
+import java.util.*;
 import java.util.stream.Collectors;
 
-public class DodavanjeNoveBolestiController {
+public class DodavanjeNoveBolestiController implements Initializable {
 
     private static final Logger logger = LoggerFactory.getLogger(DodavanjeNoveBolestiController.class);
 
@@ -32,6 +31,11 @@ public class DodavanjeNoveBolestiController {
     @FXML
     private TextField simptomi;
 
+    @FXML
+    private TextField opis;
+
+    // 1. zadatak
+
     public void dodajNovuBolest() {
         File unosBolesti = new File("dat/bolesti.txt");
         try (
@@ -40,6 +44,26 @@ public class DodavanjeNoveBolestiController {
         ) {
             String nazivBolestiText = nazivBolesti.getText();
             String simptomiText = simptomi.getText();
+            String opisText = opis.getText();
+
+            // 2. zadatak
+
+            nazivBolesti.setStyle("-fx-text-box-border: grey;-fx-focus-color: grey;");
+            simptomi.setStyle("-fx-text-box-border: grey;-fx-focus-color: grey;");
+            opis.setStyle("-fx-text-box-border: grey;-fx-focus-color: grey;");
+
+            if(nazivBolestiText.isEmpty()) {
+                nazivBolesti.setStyle("-fx-text-box-border: red;-fx-focus-color: red;");
+                throw new Exception("Prazan string");
+            }
+            if(simptomiText.isEmpty()) {
+                simptomi.setStyle("-fx-text-box-border: red;-fx-focus-color: red;");
+                throw new Exception("Prazan string");
+            }
+            if(opisText.isEmpty()) {
+                opis.setStyle("-fx-text-box-border: red;-fx-focus-color: red;");
+                throw new Exception("Prazan string");
+            }
 
             Set<Simptom> odabraniSimptomi = new HashSet<>();
 
@@ -75,7 +99,7 @@ public class DodavanjeNoveBolestiController {
 
     //        Bolest novaBolest = new Bolest((long) (Main.bolesti.stream().map(b -> !(b instanceof Virus)).collect(Collectors.toList()).size() + 1), nazivBolestiText, odabraniSimptomi);
 
-            Bolest novaBolest = new Bolest(Long.parseLong("1"+((Integer.valueOf((int) Main.bolesti.stream().filter(b -> !(b instanceof Virus)).count() + 1)).toString())), nazivBolestiText, odabraniSimptomi);
+            Bolest novaBolest = new Bolest(Long.parseLong("1"+((Integer.valueOf((int) Main.bolesti.stream().filter(b -> !(b instanceof Virus)).count() + 1)).toString())), nazivBolestiText, odabraniSimptomi, opisText);
 
             // Provjera da li je unos bolest ili virus i unos u polje bolesti
 
@@ -96,6 +120,7 @@ public class DodavanjeNoveBolestiController {
                     .stream()
                     .map(simptom -> simptom.getId().toString())
                     .collect(Collectors.toList())) +"\n");
+            writer.write(novaBolest.getOpis()+"\n");
 
             System.out.println(String.join(",", novaBolest
                     .getSimptomi()
@@ -119,6 +144,30 @@ public class DodavanjeNoveBolestiController {
         } catch (NumberFormatException exc) {
             logger.error("Ne mogu pretvoriti vrijednost: ", exc);
             PocetniEkranController.neuspjesanUnos(exc.getMessage());
+        } catch (Exception exce) {
+            logger.error("Unio sam prazan string: ", exce);
+            PocetniEkranController.neuspjesanUnos(exce.getMessage());
         }
+    }
+
+    @Override
+    public void initialize(URL url, ResourceBundle resourceBundle) {
+        //opis.setStyle("-fx-text-box-border: default;-fx-focus-color: default;");
+    }
+
+    // 3. zadatak
+
+    public void nadopuniBolest(Bolest item) {
+        nazivBolesti.setText(item.getNaziv());
+        simptomi.setText(String.join(",", item
+                .getSimptomi()
+                .stream()
+                .map(simptom -> simptom.getId().toString())
+                .collect(Collectors.toList())));
+        opis.setText(item.getOpis());
+
+
+
+
     }
 }

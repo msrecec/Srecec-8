@@ -13,6 +13,7 @@ import java.util.Set;
 
 public class Bolest extends ImenovaniEntitet implements Serializable {
     private Set<Simptom> simptomi;
+    private String opis;
 
     /**
      * Služi za instanciranje objekta klase <code>class Bolest</code>
@@ -21,9 +22,10 @@ public class Bolest extends ImenovaniEntitet implements Serializable {
      * @param simptomi
      */
 
-    public Bolest(Long id, String naziv, Set<Simptom> simptomi) {
+    public Bolest(Long id, String naziv, Set<Simptom> simptomi, String opis) {
         super(id, naziv);
         this.simptomi = simptomi;
+        this.opis = opis;
     }
 
     /**
@@ -70,5 +72,13 @@ public class Bolest extends ImenovaniEntitet implements Serializable {
 
     public void setSimptomi(Set<Simptom> simptomi) {
         this.simptomi = simptomi;
+    }
+
+    public String getOpis() {
+        return opis;
+    }
+
+    public void setOpis(String opis) {
+        this.opis = opis;
     }
 }

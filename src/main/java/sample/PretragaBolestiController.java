@@ -3,12 +3,17 @@ package main.java.sample;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Scene;
 import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableRow;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.stage.Stage;
 import main.java.sample.covidportal.model.Bolest;
+import main.java.sample.covidportal.model.Osoba;
 import main.java.sample.covidportal.model.Simptom;
 import main.java.sample.covidportal.model.Virus;
 
@@ -31,8 +36,14 @@ public class PretragaBolestiController implements Initializable {
     private TableColumn<Set<Simptom>, String> simptomiStupac;
     @FXML
     private TableColumn<Long, String> idStupac;
+
+    @FXML
+    private TableColumn<String, String> opisStupac;
+
     @FXML
     private TextField unosNazivaBolesti;
+
+    // 1. zadatak
 
     public void pretraga() throws IOException {
         String uneseniNazivBolesti = unosNazivaBolesti.getText().toLowerCase();
@@ -64,8 +75,55 @@ public class PretragaBolestiController implements Initializable {
         nazivStupac.setCellValueFactory(new PropertyValueFactory<Bolest, String>("naziv"));
         simptomiStupac.setCellValueFactory(new PropertyValueFactory<Set<Simptom>, String>("simptomi"));
         idStupac.setCellValueFactory(new PropertyValueFactory<Long, String>("id"));
+        opisStupac.setCellValueFactory(new PropertyValueFactory<String, String>("opis"));
 
         tablicaBolesti.setItems(observableListaBolesti);
+
+        // 3. zadatak
+
+
+        tablicaBolesti.setRowFactory( t -> {
+            TableRow<Bolest> red = new TableRow<>();
+            // dodajem callback funkciju na event listener - ala JavaScript ista logika samo brojimo klikove sa getClickCount() metodom umjesto nekakvom statičkom varijablom
+            red.setOnMouseClicked(event -> {
+                if (event.getClickCount() == 2 && (!red.isEmpty())) {
+
+                    // znam da je ruzan workaround preko globalne varijable , no ne stignem napraviti konstruktor niti metodu za prikazivanje preko kontrolera
+//                        Main.odabranaOsoba = red.getItem();
+
+                    FXMLLoader loader = new FXMLLoader(getClass().getClassLoader().getResource("dodavanjeBolesti.fxml"));
+                    Scene scene = null;
+                    try {
+                        scene = new Scene(loader.load(), 800, 500);
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+//                        Stage stg = new Stage(); // Ovo je koristimo ako zelimo otvoriti u novom prozoru
+
+                    Stage stg = Main.getMainStage(); // Ovo koristimo ako zelimo otvoriti u istom prozoru
+
+                    stg.setScene(scene);
+                    stg.show();
+
+                    DodavanjeNoveBolestiController controller = loader.getController();
+                    controller.nadopuniBolest(red.getItem());
+
+//                        Parent pretragaOsobaFrame = null;
+//                        try {
+//                            pretragaOsobaFrame = FXMLLoader.load(getClass().getClassLoader().getResource("pretragaOsobe.fxml"));
+//                        } catch (IOException e) {
+//                            e.printStackTrace();
+//                        }
+
+
+
+//                        Scene pretragaOsobaScene = new Scene(pretragaOsobaFrame, 550, 380);
+//                        Main.getMainStage().setScene(pretragaOsobaScene);
+                }
+            });
+            return red ;
+        });
+
     }
 
     public static ObservableList<Bolest> getObservableListaBolesti() {

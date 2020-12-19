@@ -70,5 +70,15 @@
                 <Insets bottom="5.0" />
             </GridPane.margin>
         </Button>
+      <Label text="Opis bolesti:" GridPane.columnIndex="3" GridPane.halignment="RIGHT" GridPane.rowIndex="10">
+         <GridPane.margin>
+            <Insets right="5.0" />
+         </GridPane.margin>
+      </Label>
+      <TextField fx:id="opis" prefHeight="25.0" prefWidth="537.0" GridPane.columnIndex="4" GridPane.columnSpan="2147483647" GridPane.rowIndex="10">
+         <GridPane.margin>
+            <Insets right="5.0" />
+         </GridPane.margin>
+      </TextField>
     </children>
 </GridPane>
